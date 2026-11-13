@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% from "partials/_status_badge.html" import status_badge %}
+{% from "partials/_source_link.html" import source_link %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}Sources — LA Council Tracker{% endblock %}
+{% block page_title %}Sources{% endblock %}
+{% block content %}
+
+<p class="page-intro">Original material the pipeline has retrieved — emails, agendas, documents, and Council File pages. Preview text is always shown as plain text, never as raw HTML.</p>
+{% if total_docs is not none %}
+  <p class="muted small">Showing the {{ shown }} most recently retrieved of {{ total_docs }} documents and {{ total_emails }} emails.</p>
+{% endif %}
+
+{% if sources %}
+  {% for s in sources %}
+    <article class="panel source-card">
+      <header class="source-card-header">
+        <span class="source-card-type">{{ s.source_type|capitalize }}</span>
+        <span class="muted small">published {{ s.published_at }} &middot; retrieved {{ s.retrieved_at }}</span>
+      </header>
+      <h3>{{ s.title }}</h3>
+      <p>
+        {{ source_link(s.source_url) }}
+        {{ status_badge('green' if s.extraction_state == 'complete' else 'amber', s.extraction_state|capitalize) }}
+      </p>
+      <p class="muted small">
+        Linked Council File(s):
+        {% for cf in s.linked_cfnumbers %}
+          <a href="{{ url_for('council_files.detail', cfnumber=cf) }}">{{ cf }}</a>{% if not loop.last %}, {% endif %}
+        {% endfor %}
+      </p>
+      <p class="source-preview">{{ s.preview }}</p>
+    </article>
+  {% endfor %}
+{% else %}
+  {{ empty_state("No sources retrieved yet.") }}
+{% endif %}
+
+{% endblock %}

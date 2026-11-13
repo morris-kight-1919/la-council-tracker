@@ -1,0 +1,223 @@
+{
+ "cfnumber": "25-0216-S1",
+ "title": "Hope the Mission / Encampment Resolution Fund Grant / San Fernando Osborne Program / Contract",
+ "date_received": "02/20/2026",
+ "last_changed": "03/19/2026",
+ "expiration": "03/10/2028",
+ "council_district": "7",
+ "mover": "MONICA RODRIGUEZ",
+ "second": "EUNISSES HERNANDEZ",
+ "activities": [
+  {
+   "date": "03/19/2026",
+   "activity": "Council action final."
+  },
+  {
+   "date": "03/10/2026",
+   "activity": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51."
+  },
+  {
+   "date": "03/06/2026",
+   "activity": "City Clerk scheduled item for Council on March 10, 2026."
+  },
+  {
+   "date": "03/04/2026",
+   "activity": "Housing and Homelessness Committee approved item(s) ."
+  },
+  {
+   "date": "03/03/2026",
+   "activity": "Housing and Homelessness Committee scheduled item for committee meeting on March 4, 2026."
+  },
+  {
+   "date": "02/20/2026",
+   "activity": "Motion referred to Housing and Homelessness Committee."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Mayor Concurrence/Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0216-S1_CAF_3-19-26.pdf",
+   "date": "03/19/2026"
+  },
+  {
+   "title": "Report from Housing and Homelessness Committee",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0216-S1_rpt_hh_3-4-26.pdf",
+   "date": "03/04/2026"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0216-S1_misc_02-20-26.pdf",
+   "date": "02/20/2026"
+  }
+ ],
+ "vote": {
+  "meeting_date": "03/10/2026",
+  "meeting_type": "Regular",
+  "vote_action": "",
+  "vote_given": "(11 - 0 - 4)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "EUNISSES HERNANDEZ",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "HEATHER HUTT",
+    "council_district": "10",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "YSABEL JURADO",
+    "council_district": "14",
+    "vote": "YES"
+   },
+   {
+    "name": "JOHN LEE",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "TIM MCOSKER",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "ADRIN NAZARIAN",
+    "council_district": "2",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "IMELDA PADILLA",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "TRACI PARK",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "NITHYA RAMAN",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "YES"
+   },
+   {
+    "name": "HUGO SOTO-MARTINEZ",
+    "council_district": "13",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "KATY YAROSLAVSKY",
+    "council_district": "5",
+    "vote": "ABSENT"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "03/10/2026",
+   "meeting_type": "Regular",
+   "vote_action": "",
+   "vote_given": "(11 - 0 - 4)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "EUNISSES HERNANDEZ",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "HEATHER HUTT",
+     "council_district": "10",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "YSABEL JURADO",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "TIM MCOSKER",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "ADRIN NAZARIAN",
+     "council_district": "2",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "IMELDA PADILLA",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "TRACI PARK",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "YES"
+    },
+    {
+     "name": "HUGO SOTO-MARTINEZ",
+     "council_district": "13",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "KATY YAROSLAVSKY",
+     "council_district": "5",
+     "vote": "ABSENT"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0216-S1",
+ "retrieved_at": "2026-10-28T07:01:00"
+}

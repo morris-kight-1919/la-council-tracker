@@ -1,0 +1,192 @@
+{
+ "cfnumber": "03-1373",
+ "title": "LOS ANGELES FIRST INDEPENDENCE DAY CELEBRATION / 4TH OF JULY PROGRAM AT FORT MOORE",
+ "status": "Closed",
+ "status_detail": null,
+ "related_to": null,
+ "date_received": "Jun 25, 2003",
+ "last_changed": null,
+ "expiration": null,
+ "council_district": "CD 14",
+ "mover": "NICK PACHECO",
+ "second": "BERNARD PARKS",
+ "fields": {
+  "Date received": "Jun 25, 2003",
+  "Mover": "NICK PACHECO",
+  "Seconded by": "BERNARD PARKS",
+  "District": "CD 14"
+ },
+ "activities": [
+  {
+   "date": "Sep 9, 2003",
+   "activity": "File to Cal Clk"
+  },
+  {
+   "date": "Jul 7, 2003",
+   "activity": "File in files"
+  },
+  {
+   "date": "Jul 1, 2003",
+   "activity": "Motion ADOPTED"
+  },
+  {
+   "date": "Jun 25, 2003",
+   "activity": "This days Council session"
+  },
+  {
+   "date": "Jun 25, 2003",
+   "activity": "File to Calendar Clerk for placement on next available Council agenda"
+  }
+ ],
+ "documents": [
+  {
+   "title": "Complete Council File",
+   "url": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/2003/03-1373.PDF",
+   "date": "Jan 1, 2003"
+  }
+ ],
+ "vote": {
+  "meeting_date": "July 1, 2003",
+  "meeting_type": null,
+  "vote_action": "Adopted",
+  "vote_given": "Ayes 15, Noes 0, Absent 0",
+  "agenda_item": "Agenda item 30",
+  "moved_seconded": "Moved by DENNIS ZINE, seconded by MARTIN LUDLOW.",
+  "members": [
+   {
+    "name": "TONY CARDENAS",
+    "vote": "Yes"
+   },
+   {
+    "name": "ERIC GARCETTI",
+    "vote": "Yes"
+   },
+   {
+    "name": "WENDY GREUEL",
+    "vote": "Yes"
+   },
+   {
+    "name": "JANICE HAHN",
+    "vote": "Yes"
+   },
+   {
+    "name": "TOM LABONGE",
+    "vote": "Yes"
+   },
+   {
+    "name": "MARTIN LUDLOW",
+    "vote": "Yes"
+   },
+   {
+    "name": "CINDY MISCIKOWSKI",
+    "vote": "Yes"
+   },
+   {
+    "name": "ALEX PADILLA",
+    "vote": "Yes"
+   },
+   {
+    "name": "BERNARD PARKS",
+    "vote": "Yes"
+   },
+   {
+    "name": "JAN PERRY",
+    "vote": "Yes"
+   },
+   {
+    "name": "ED REYES",
+    "vote": "Yes"
+   },
+   {
+    "name": "GREIG SMITH",
+    "vote": "Yes"
+   },
+   {
+    "name": "ANTONIO VILLARAIGOSA",
+    "vote": "Yes"
+   },
+   {
+    "name": "JACK WEISS",
+    "vote": "Yes"
+   },
+   {
+    "name": "DENNIS ZINE",
+    "vote": "Yes"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "July 1, 2003",
+   "meeting_type": null,
+   "vote_action": "Adopted",
+   "vote_given": "Ayes 15, Noes 0, Absent 0",
+   "agenda_item": "Agenda item 30",
+   "moved_seconded": "Moved by DENNIS ZINE, seconded by MARTIN LUDLOW.",
+   "members": [
+    {
+     "name": "TONY CARDENAS",
+     "vote": "Yes"
+    },
+    {
+     "name": "ERIC GARCETTI",
+     "vote": "Yes"
+    },
+    {
+     "name": "WENDY GREUEL",
+     "vote": "Yes"
+    },
+    {
+     "name": "JANICE HAHN",
+     "vote": "Yes"
+    },
+    {
+     "name": "TOM LABONGE",
+     "vote": "Yes"
+    },
+    {
+     "name": "MARTIN LUDLOW",
+     "vote": "Yes"
+    },
+    {
+     "name": "CINDY MISCIKOWSKI",
+     "vote": "Yes"
+    },
+    {
+     "name": "ALEX PADILLA",
+     "vote": "Yes"
+    },
+    {
+     "name": "BERNARD PARKS",
+     "vote": "Yes"
+    },
+    {
+     "name": "JAN PERRY",
+     "vote": "Yes"
+    },
+    {
+     "name": "ED REYES",
+     "vote": "Yes"
+    },
+    {
+     "name": "GREIG SMITH",
+     "vote": "Yes"
+    },
+    {
+     "name": "ANTONIO VILLARAIGOSA",
+     "vote": "Yes"
+    },
+    {
+     "name": "JACK WEISS",
+     "vote": "Yes"
+    },
+    {
+     "name": "DENNIS ZINE",
+     "vote": "Yes"
+    }
+   ]
+  }
+ ],
+ "url": "https://lms.lacity.gov/files/03-1373",
+ "retrieved_at": "2026-11-05T11:57:19"
+}

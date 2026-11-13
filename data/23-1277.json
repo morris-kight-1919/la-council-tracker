@@ -1,0 +1,261 @@
+{
+ "cfnumber": "23-1277",
+ "title": "Critical Infrastructure Inventory / Safe Barriers / Encampment Fires / Freeways / High Fire Severity Zones / Environmentally Sensitive Areas",
+ "date_received": "11/14/2023",
+ "last_changed": "03/10/2024",
+ "expiration": "12/01/2025",
+ "council_district": null,
+ "mover": "TRACI PARK",
+ "second": "JOHN S. LEE",
+ "activities": [
+  {
+   "date": "03/10/2024",
+   "activity": "Community Impact Statement submitted by Studio City Neighborhood Council."
+  },
+  {
+   "date": "02/16/2024",
+   "activity": "Community Impact Statement submitted by North Hollywood Northeast Neighborhood Council."
+  },
+  {
+   "date": "12/06/2023",
+   "activity": "Council action final."
+  },
+  {
+   "date": "12/05/2023",
+   "activity": "Council adopted Public Safety Committee report as amended by Motion (Park - Soto-Mart\u00cdnez), subject to reconsideration, pursuant to Council Rule 51."
+  },
+  {
+   "date": "12/01/2023",
+   "activity": "City Clerk scheduled item for Council on December 5, 2023."
+  },
+  {
+   "date": "11/28/2023",
+   "activity": "Public Safety Committee approved item(s) ."
+  },
+  {
+   "date": "11/22/2023",
+   "activity": "Public Safety Committee scheduled item for committee meeting on November 28, 2023."
+  },
+  {
+   "date": "11/14/2023",
+   "activity": "Motion referred to Public Safety Committee."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Community Impact Statement submitted by Studio City Neighborhood Council",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1277_cis_03-11-24.pdf",
+   "date": "03/10/2024"
+  },
+  {
+   "title": "Community Impact Statement submitted by North Hollywood Northeast Neighborhood Council",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1277_cis_02-16-2024.pdf",
+   "date": "02/16/2024"
+  },
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1277_CAF_12-5-23.pdf",
+   "date": "12/06/2023"
+  },
+  {
+   "title": "Amending Motion (Park - Soto-Mart\u00cdnez)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1277_misc_amd_park_sm_12-5-23.pdf",
+   "date": "12/05/2023"
+  },
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1277_PC_PM_12-04-2023.pdf",
+   "date": "12/04/2023"
+  },
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1277_PC_PM_12-02-2023.pdf",
+   "date": "12/02/2023"
+  },
+  {
+   "title": "Report from Public Safety Committee",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1277_rpt_ps_11-28-23.pdf",
+   "date": "11/28/2023"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1277_SC_PS_11-28-2023.pdf",
+   "date": "11/28/2023"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1277_misc_11-14-23.pdf",
+   "date": "11/14/2023"
+  }
+ ],
+ "vote": {
+  "meeting_date": "12/05/2023",
+  "meeting_type": "Regular",
+  "vote_action": "Adopted as Amended",
+  "vote_given": "(10 - 2 - 3)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "KEVIN DELEON",
+    "council_district": "14",
+    "vote": "YES"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "EUNISSES HERNANDEZ",
+    "council_district": "1",
+    "vote": "NO"
+   },
+   {
+    "name": "HEATHER HUTT",
+    "council_district": "10",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KREKORIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "JOHN LEE",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "TIM MCOSKER",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "IMELDA PADILLA",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "TRACI PARK",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "NITHYA RAMAN",
+    "council_district": "4",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "HUGO SOTO-MARTINEZ",
+    "council_district": "13",
+    "vote": "NO"
+   },
+   {
+    "name": "KATY YAROSLAVSKY",
+    "council_district": "5",
+    "vote": "YES"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "12/05/2023",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted as Amended",
+   "vote_given": "(10 - 2 - 3)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "KEVIN DELEON",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "EUNISSES HERNANDEZ",
+     "council_district": "1",
+     "vote": "NO"
+    },
+    {
+     "name": "HEATHER HUTT",
+     "council_district": "10",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "TIM MCOSKER",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "IMELDA PADILLA",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "TRACI PARK",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "HUGO SOTO-MARTINEZ",
+     "council_district": "13",
+     "vote": "NO"
+    },
+    {
+     "name": "KATY YAROSLAVSKY",
+     "council_district": "5",
+     "vote": "YES"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1277",
+ "retrieved_at": "2026-10-28T07:02:49"
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in — LA Council Tracker</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    .login-shell { min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+    .login-card { background: var(--panel-bg); border: 1px solid var(--border); border-radius: var(--radius);
+                  padding: 2rem; width: 100%; max-width: 320px; }
+    .login-card h1 { font-size: 1.1rem; margin-bottom: 1.25rem; }
+    .login-card label { display: block; font-size: 0.85em; color: var(--muted); margin: 0.75rem 0 0.25rem; }
+    .login-card input[type="text"], .login-card input[type="password"] {
+      width: 100%; padding: 0.4rem 0.55rem; border: 1px solid var(--border); border-radius: var(--radius);
+      font: inherit; box-sizing: border-box;
+    }
+    .login-card button.primary { width: 100%; margin-top: 1.25rem; padding: 0.5rem; }
+  </style>
+</head>
+<body>
+  <div class="login-shell">
+    <form class="login-card" method="post">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <h1>City Watch — sign in</h1>
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          {% for category, message in messages %}
+            <div class="flash flash-{{ category }}">{{ message }}</div>
+          {% endfor %}
+        {% endif %}
+      {% endwith %}
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" autocomplete="username" required autofocus>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" autocomplete="current-password" required>
+      <button type="submit" class="primary">Sign in</button>
+    </form>
+  </div>
+</body>
+</html>

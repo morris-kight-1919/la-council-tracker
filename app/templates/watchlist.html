@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% from "partials/_file_row.html" import file_row %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}Watchlist — LA Council Tracker{% endblock %}
+{% block page_title %}Watchlist{% endblock %}
+{% block content %}
+
+<form class="add-file-form" method="post" action="{{ url_for('watchlist.add') }}">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <input type="text" name="cf" placeholder="Add a Council File — e.g. 26-0386 or a lms.lacity.gov/files/… link" size="48" required>
+  <button type="submit" class="primary">Add to Watchlist</button>
+</form>
+
+{% if files %}
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Council File</th>
+      <th>Status</th>
+      <th>Next milestone</th>
+      <th>Committee / body</th>
+      <th>Confidence / why watched</th>
+      <th>Last change</th>
+      <th>Last checked</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for file in files %}{{ file_row(file) }}{% endfor %}
+  </tbody>
+</table>
+{% else %}
+  {{ empty_state("No Council Files are being watched yet.") }}
+{% endif %}
+
+{% endblock %}

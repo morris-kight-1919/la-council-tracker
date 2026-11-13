@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}{{ page_title }} — LA Council Tracker{% endblock %}
+{% block page_title %}{{ page_title }}{% endblock %}
+{% block content %}
+<section class="panel">
+  {{ empty_state("Coming soon.", page_description) }}
+</section>
+{% endblock %}

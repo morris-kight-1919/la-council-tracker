@@ -1,0 +1,215 @@
+{
+ "cfnumber": "06-2770-S1",
+ "title": "Homeless Encampment / City Owned Lot on 86th and Broadway",
+ "date_received": "07/01/2015",
+ "last_changed": "07/30/2015",
+ "expiration": "07/28/2017",
+ "council_district": null,
+ "mover": "MARQUEECE HARRIS-DAWSON",
+ "second": "CURREN D. PRICE, JR.",
+ "activities": [
+  {
+   "date": "07/30/2015",
+   "activity": "Council action final."
+  },
+  {
+   "date": "07/28/2015",
+   "activity": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51."
+  },
+  {
+   "date": "07/24/2015",
+   "activity": "City Clerk scheduled item for Council on July 28, 2015."
+  },
+  {
+   "date": "07/01/2015",
+   "activity": "Motion referred to Council (tentatively scheduled for July 28, 2015)."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2006/06-2770-S1_CA_07-30-2015.pdf",
+   "date": "07/30/2015"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2006/06-2770-s1_sc_07-28-15.pdf",
+   "date": "07/28/2015"
+  },
+  {
+   "title": "Motion (e)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2006/06-2770-S1_mot_07-01-2015.pdf",
+   "date": "07/01/2015"
+  }
+ ],
+ "vote": {
+  "meeting_date": "07/28/2015",
+  "meeting_type": "Regular",
+  "vote_action": "Adopted",
+  "vote_given": "(15 - 0 - 0)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "MIKE BONIN",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "JOE BUSCAINO",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "GILBERT A. CEDILLO",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "MITCHELL ENGLANDER",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "FELIPE FUENTES",
+    "council_district": "7",
+    "vote": "YES"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "JOSE HUIZAR",
+    "council_district": "14",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KORETZ",
+    "council_district": "5",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KREKORIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "NURY MARTINEZ",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "MITCH O'FARRELL",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "DAVID RYU",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "HERB WESSON",
+    "council_district": "10",
+    "vote": "YES"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "07/28/2015",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted",
+   "vote_given": "(15 - 0 - 0)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MIKE BONIN",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "JOE BUSCAINO",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "GILBERT A. CEDILLO",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "MITCHELL ENGLANDER",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "FELIPE FUENTES",
+     "council_district": "7",
+     "vote": "YES"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "JOSE HUIZAR",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KORETZ",
+     "council_district": "5",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "NURY MARTINEZ",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "MITCH O'FARRELL",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "DAVID RYU",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "HERB WESSON",
+     "council_district": "10",
+     "vote": "YES"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=06-2770-S1",
+ "retrieved_at": "2026-10-28T07:07:06"
+}

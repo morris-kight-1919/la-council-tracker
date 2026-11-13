@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}Search — LA Council Tracker{% endblock %}
+{% block page_title %}Search{% endblock %}
+{% block content %}
+
+{% if not query %}
+  {{ empty_state("Type something in the search box above.") }}
+{% else %}
+
+{% if member_matches %}
+  <section class="panel">
+    <h2>Council members</h2>
+    <ul class="action-queue">
+      {% for n in member_matches %}
+        <li class="action-item"><a href="{{ url_for('members.detail', name=n) }}">{{ n }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}
+
+{% if results %}
+  <p class="page-intro">{{ results|length }} result(s) for “{{ query }}”</p>
+  {% for r in results %}
+    <article class="panel">
+      <span class="muted small">{{ r.source_type|capitalize }}{% if r.cfnumber %} &middot; <a href="{{ url_for('council_files.detail', cfnumber=r.cfnumber) }}">CF {{ r.cfnumber }}</a>{% endif %}{% if r.date %} &middot; {{ r.date }}{% endif %}</span>
+      <h3>{{ r.title }}</h3>
+      <p class="source-preview">{{ r.snippet }}</p>
+      {% if r.url %}<p><a href="{{ r.url }}" target="_blank" rel="noopener noreferrer">View source ↗</a></p>{% endif %}
+    </article>
+  {% endfor %}
+{% elif not member_matches %}
+  {{ empty_state("No results for “" + query + "”.") }}
+{% endif %}
+
+{% endif %}
+
+{% endblock %}

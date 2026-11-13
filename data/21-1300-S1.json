@@ -1,0 +1,263 @@
+{
+ "cfnumber": "21-1300-S1",
+ "title": "June 2022 Primary Nominating Election / Los Angeles Municipal Code Amendment / Homeless Encampment Prohibition / Public Areas / Emergency Temporary Housing / Martin v. Boise / Land Use Code and Zoning Regulations Waiver / Ballot Measure",
+ "date_received": "10/06/2021",
+ "last_changed": "12/29/2021",
+ "expiration": "11/19/2023",
+ "council_district": null,
+ "mover": "JOE BUSCAINO",
+ "second": "JOHN S. LEE",
+ "activities": [
+  {
+   "date": "12/29/2021",
+   "activity": "Community Impact Statement submitted by Silver Lake Neighborhood Council."
+  },
+  {
+   "date": "11/24/2021",
+   "activity": "Council action final."
+  },
+  {
+   "date": "11/23/2021",
+   "activity": "Council referred matter to the Homelessness and Poverty Committee Forthwith."
+  },
+  {
+   "date": "11/19/2021",
+   "activity": "City Clerk scheduled item for Council on November 23, 2021."
+  },
+  {
+   "date": "11/18/2021",
+   "activity": "Rules, Elections and Intergovernmental Relations Committee waived consideration of item ."
+  },
+  {
+   "date": "10/06/2021",
+   "activity": "Motion referred to Rules, Elections and Intergovernmental Relations Committee."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Report from Rules, Elections, and Intergovernmental Relations Committee (Ballot Argument Author Designations)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1300-S1_rpt_REIR_03-08-22.pdf",
+   "date": "03/08/2022"
+  },
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1300-S1_PC_AB_01-08-2022.pdf",
+   "date": "01/08/2022"
+  },
+  {
+   "title": "Community Impact Statement submitted by Silver Lake Neighborhood Council",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1300-S1_CIS_12292021045151_12-29-2021.pdf",
+   "date": "12/29/2021"
+  },
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1300-S1_PC_AB_11-24-2021.pdf",
+   "date": "11/24/2021"
+  },
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1300-S1_PC_AB_11-23-2021.pdf",
+   "date": "11/23/2021"
+  },
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1300-S1_caf_11-23-21.pdf",
+   "date": "11/23/2021"
+  },
+  {
+   "title": "Motion (Krekorian - Blumenfield)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1300-S1_misc_Motion_Krekorian-Blumenfield_11-23-21.pdf",
+   "date": "11/23/2021"
+  },
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1300-S1_PC_AB_11-22-2021.pdf",
+   "date": "11/22/2021"
+  },
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1300-S1_PC_AB_11-21-2021.pdf",
+   "date": "11/21/2021"
+  },
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1300-S1_PC_AB_10-08-2021.pdf",
+   "date": "10/08/2021"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1300-S1_misc_10-06-21.pdf",
+   "date": "10/06/2021"
+  }
+ ],
+ "vote": {
+  "meeting_date": "11/23/2021",
+  "meeting_type": "Regular",
+  "vote_action": "Adopted to Refer",
+  "vote_given": "(11 - 2 - 2)",
+  "members": [
+   {
+    "name": "(VACANT) (VACANT)",
+    "council_district": "10",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "MIKE BONIN",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "JOE BUSCAINO",
+    "council_district": "15",
+    "vote": "NO"
+   },
+   {
+    "name": "GILBERT A. CEDILLO",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "KEVIN DELEON",
+    "council_district": "14",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KORETZ",
+    "council_district": "5",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KREKORIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "JOHN LEE",
+    "council_district": "12",
+    "vote": "NO"
+   },
+   {
+    "name": "NURY MARTINEZ",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "MITCH O'FARRELL",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "NITHYA RAMAN",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "YES"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "11/23/2021",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted to Refer",
+   "vote_given": "(11 - 2 - 2)",
+   "members": [
+    {
+     "name": "(VACANT) (VACANT)",
+     "council_district": "10",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MIKE BONIN",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "JOE BUSCAINO",
+     "council_district": "15",
+     "vote": "NO"
+    },
+    {
+     "name": "GILBERT A. CEDILLO",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "KEVIN DELEON",
+     "council_district": "14",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KORETZ",
+     "council_district": "5",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "NO"
+    },
+    {
+     "name": "NURY MARTINEZ",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "MITCH O'FARRELL",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "YES"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-1300-S1",
+ "retrieved_at": "2026-10-28T07:05:19"
+}

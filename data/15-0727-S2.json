@@ -1,0 +1,242 @@
+{
+ "cfnumber": "15-0727-S2",
+ "title": "Homeless Encampment Cleanups / Bureau of Sanitation / Solid Waste Resources Fund",
+ "date_received": "02/09/2016",
+ "last_changed": "03/16/2016",
+ "expiration": "03/15/2018",
+ "council_district": null,
+ "mover": "PAUL KREKORIAN",
+ "second": "NURY MARTINEZ",
+ "activities": [
+  {
+   "date": "03/16/2016",
+   "activity": "Council action final."
+  },
+  {
+   "date": "03/15/2016",
+   "activity": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51."
+  },
+  {
+   "date": "03/14/2016",
+   "activity": "Energy and Environment Committee waived consideration of item ."
+  },
+  {
+   "date": "03/02/2016",
+   "activity": "City Clerk scheduled item for Council on March 15, 2016."
+  },
+  {
+   "date": "02/24/2016",
+   "activity": "Homelessness and Poverty Committee approved as amended ."
+  },
+  {
+   "date": "02/19/2016",
+   "activity": "Homelessness and Poverty Committee scheduled item for committee meeting on February 24, 2016."
+  },
+  {
+   "date": "02/09/2016",
+   "activity": "Motion referred to Energy and Environment Committee; Homelessness and Poverty Committee."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0727-S2_CA_03-16-2016.pdf",
+   "date": "03/16/2016"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0727-S2_sc_3-15-16.pdf",
+   "date": "03/15/2016"
+  },
+  {
+   "title": "Communication from Homelessness and Poverty",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0727-S2_misc_02-24-2016.pdf",
+   "date": "02/24/2016"
+  },
+  {
+   "title": "Report from Homelessness and Poverty Committee",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0727-S2_rpt_hp_2-24-16.pdf",
+   "date": "02/24/2016"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0727-S2_sc_2-24-16.pdf",
+   "date": "02/24/2016"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0727-S2_mot_02-09-2016.pdf",
+   "date": "02/09/2016"
+  }
+ ],
+ "vote": {
+  "meeting_date": "03/15/2016",
+  "meeting_type": "Regular",
+  "vote_action": "Adopted",
+  "vote_given": "(12 - 0 - 3)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "MIKE BONIN",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "JOE BUSCAINO",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "GILBERT A. CEDILLO",
+    "council_district": "1",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "MITCHELL ENGLANDER",
+    "council_district": "12",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "FELIPE FUENTES",
+    "council_district": "7",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "JOSE HUIZAR",
+    "council_district": "14",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KORETZ",
+    "council_district": "5",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KREKORIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "NURY MARTINEZ",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "MITCH O'FARRELL",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "DAVID RYU",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "HERB WESSON",
+    "council_district": "10",
+    "vote": "YES"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "03/15/2016",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted",
+   "vote_given": "(12 - 0 - 3)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MIKE BONIN",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "JOE BUSCAINO",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "GILBERT A. CEDILLO",
+     "council_district": "1",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "MITCHELL ENGLANDER",
+     "council_district": "12",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "FELIPE FUENTES",
+     "council_district": "7",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "JOSE HUIZAR",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KORETZ",
+     "council_district": "5",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "NURY MARTINEZ",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "MITCH O'FARRELL",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "DAVID RYU",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "HERB WESSON",
+     "council_district": "10",
+     "vote": "YES"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=15-0727-S2",
+ "retrieved_at": "2026-10-28T07:06:58"
+}

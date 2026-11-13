@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}Not found — LA Council Tracker{% endblock %}
+{% block page_title %}Not found{% endblock %}
+{% block content %}
+<section class="panel">
+  {{ empty_state("That page or Council File wasn't found.", "Check the Watchlist or Council Files search.") }}
+</section>
+{% endblock %}

@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% from "partials/_status_badge.html" import status_badge %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}Activity — LA Council Tracker{% endblock %}
+{% block page_title %}Activity{% endblock %}
+{% block content %}
+
+<section class="panel">
+  <h2>Review decisions</h2>
+  <p class="page-intro">Confirm/reject/defer decisions made in the Inbox and elsewhere, most recent first.</p>
+  {% if decisions %}
+    <table class="data-table">
+      <thead><tr><th>When</th><th>Council File</th><th>Kind</th><th>Decision</th><th>By</th><th>Note</th></tr></thead>
+      <tbody>
+        {% for d in decisions %}
+          <tr>
+            <td class="muted small">{{ d.decided_at }}</td>
+            <td>{% if d.cfnumber %}<a href="{{ url_for('council_files.detail', cfnumber=d.cfnumber) }}">{{ d.cfnumber }}</a>{% endif %}</td>
+            <td class="muted small">{{ d.kind }}</td>
+            <td>{{ status_badge('green' if d.decision == 'confirmed' else ('red' if d.decision in ('rejected','dismissed') else 'amber'), d.decision) }}</td>
+            <td class="muted small">{{ d.decided_by or '—' }}</td>
+            <td class="muted small">{{ d.note or '' }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    {{ empty_state("No review decisions recorded yet.") }}
+  {% endif %}
+</section>
+
+<section class="panel">
+  <h2>Pipeline run log</h2>
+  <p class="page-intro">What the scheduled pipeline has actually done, most recent first — separate from civic events on purpose, so a fetch failure never reads as Council action.</p>
+  {% if run_log_entries %}
+    <table class="data-table">
+      <thead><tr><th>When</th><th>Script</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody>
+        {% for e in run_log_entries %}
+          <tr>
+            <td class="muted small">{{ e.timestamp }}</td>
+            <td>{{ e.script }}</td>
+            <td>{{ status_badge('green' if e.status == 'ok' else 'red', e.status) }}</td>
+            <td class="muted small">
+              {% if e.status == 'error' %}
+                {{ e.error }}
+              {% else %}
+                {% for k, v in e.items() %}{% if k not in ('timestamp','script','status') %}{{ k }}={{ v }} {% endif %}{% endfor %}
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    {{ empty_state("No pipeline runs logged yet.") }}
+  {% endif %}
+</section>
+
+{% endblock %}

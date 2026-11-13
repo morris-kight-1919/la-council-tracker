@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% from "partials/_status_badge.html" import status_badge %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}{{ record.name }} — LA Council Tracker{% endblock %}
+{% block page_title %}{{ record.name }}{% endblock %}
+{% block content %}
+
+<section class="panel">
+  <p class="muted">Council District {{ record.council_district }}</p>
+  <p>
+    {{ status_badge('green', record.tallies.yes ~ ' Yes') }}
+    {{ status_badge('red', record.tallies.no ~ ' No') }}
+    {{ status_badge('neutral', record.tallies.absent ~ ' Absent') }}
+    {{ status_badge('amber', record.tallies.abstain ~ ' Abstain') }}
+  </p>
+  <p class="muted small">Tallies count each watched Council File once, using its most recent recorded vote. The list below shows every vote event on record for each file, including earlier committee votes and reconsiderations where the file has more than one.</p>
+</section>
+
+<section class="panel">
+  <h2>Vote history</h2>
+  {% if record.history %}
+    <table class="data-table">
+      <thead>
+        <tr><th>Council File</th><th>Vote</th><th>Action</th><th>Meeting date</th></tr>
+      </thead>
+      <tbody>
+        {% for h in record.history %}
+          <tr>
+            <td>
+              <a href="{{ url_for('council_files.detail', cfnumber=h.cfnumber) }}">{{ h.cfnumber }}</a>
+              <div class="muted small">{{ h.title }}</div>
+            </td>
+            <td>{{ status_badge('green' if h.vote == 'YES' else ('red' if h.vote == 'NO' else 'neutral'), h.vote) }}</td>
+            <td class="muted small">{{ h.vote_action or '—' }}</td>
+            <td class="muted small">{{ h.meeting_date }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    {{ empty_state("No vote history on record.") }}
+  {% endif %}
+</section>
+
+{% endblock %}

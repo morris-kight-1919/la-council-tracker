@@ -1,0 +1,468 @@
+{
+ "cfnumber": "13-0005-S638",
+ "title": "825 South Crocker Street / REAP",
+ "date_received": "10/22/2013",
+ "last_changed": "08/05/2026",
+ "expiration": "07/03/2028",
+ "council_district": "14",
+ "mover": null,
+ "second": null,
+ "activities": [
+  {
+   "date": "08/05/2026",
+   "activity": "Council action final."
+  },
+  {
+   "date": "08/05/2026",
+   "activity": "Council adopted Motion (Hernandez for Jurado - Harris-Dawson) to receive and file the item, forthwith."
+  },
+  {
+   "date": "07/03/2026",
+   "activity": "Council scheduled item for Council on August 5, 2026."
+  },
+  {
+   "date": "06/30/2026",
+   "activity": "Council continued item to August 5, 2026 ."
+  },
+  {
+   "date": "06/26/2026",
+   "activity": "City Clerk scheduled item for Council on June 30, 2026."
+  },
+  {
+   "date": "06/25/2026",
+   "activity": "Los Angeles Housing Department document(s) referred to Council."
+  },
+  {
+   "date": "06/25/2026",
+   "activity": "Document submitted by Los Angeles Housing Department, dated June 25, 2026 - (868370; 878859)."
+  },
+  {
+   "date": "11/02/2016",
+   "activity": "Council action final."
+  },
+  {
+   "date": "11/01/2016",
+   "activity": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51."
+  },
+  {
+   "date": "10/28/2016",
+   "activity": "City Clerk scheduled item for Council on November 1, 2016."
+  },
+  {
+   "date": "10/26/2016",
+   "activity": "Housing and Community Investment Department document(s) referred to Council."
+  },
+  {
+   "date": "10/25/2016",
+   "activity": "Document(s) submitted by Housing and Community Investment Department, as follows: Housing and Community Investment Department report, dated October 24, 2016, and Resolution, relative to the removal of 825 South Crocker Street from the Rent Escrow Account Program (REAP)."
+  },
+  {
+   "date": "10/30/2013",
+   "activity": "Council action final."
+  },
+  {
+   "date": "10/29/2013",
+   "activity": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51."
+  },
+  {
+   "date": "10/28/2013",
+   "activity": "City Clerk scheduled item for Council on October 29, 2013."
+  },
+  {
+   "date": "10/22/2013",
+   "activity": "Housing and Community Investment Department document(s) referred to Council."
+  },
+  {
+   "date": "10/22/2013",
+   "activity": "Document(s) submitted by Housing and Community Investment Department, as follows: Housing and Community Investment Department report, dated October 21, 2013, and a Resolution relative to the removal of the property at 825 South Crocker Street from the Rent Escrow Account Program (REAP)."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2013/13-0005-S638_ca_08-05-26.pdf",
+   "date": "08/05/2026"
+  },
+  {
+   "title": "Motion (Hernandez for Jurado - Harris-Dawson)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2013/13-0005-S638_misc_Motion_Hernandez-Harris-Dawson_8-5-26.pdf",
+   "date": "08/05/2026"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2013/13-0005-S638_SC_08-05-2026.pdf",
+   "date": "08/05/2026"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2013/13-0005-S638_SC_06-30-2026.pdf",
+   "date": "06/30/2026"
+  },
+  {
+   "title": "Report from Los Angeles Housing Department (868370)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2013/13-0005-S638_misc_6-25-26.pdf",
+   "date": "06/25/2026"
+  },
+  {
+   "title": "Report from Los Angeles Housing Department (878859)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2013/13-0005-S638_misc_1_6-25-26.pdf",
+   "date": "06/25/2026"
+  },
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2013/13-0005-S638_CA_11-02-2016.pdf",
+   "date": "11/02/2016"
+  },
+  {
+   "title": "Report from Housing and Community Investment Department",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2013/13-0005-S638_rpt_HCI_10-25-2016.pdf",
+   "date": "10/24/2016"
+  },
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2013/13-0005-s638_ca_10-29-13.pdf",
+   "date": "10/29/2013"
+  },
+  {
+   "title": "Report from Housing and Community Investment Department",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2013/13-0005-s638_rpt_chi_10-21-13.pdf",
+   "date": "10/21/2013"
+  }
+ ],
+ "vote": {
+  "meeting_date": "08/05/2026",
+  "meeting_type": "Regular",
+  "vote_action": "",
+  "vote_given": "(13 - 0 - 2)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "EUNISSES HERNANDEZ",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "HEATHER HUTT",
+    "council_district": "10",
+    "vote": "YES"
+   },
+   {
+    "name": "YSABEL JURADO",
+    "council_district": "14",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "JOHN LEE",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "TIM MCOSKER",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "ADRIN NAZARIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "IMELDA PADILLA",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "TRACI PARK",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "NITHYA RAMAN",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "HUGO SOTO-MARTINEZ",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "KATY YAROSLAVSKY",
+    "council_district": "5",
+    "vote": "YES"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "08/05/2026",
+   "meeting_type": "Regular",
+   "vote_action": "",
+   "vote_given": "(13 - 0 - 2)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "EUNISSES HERNANDEZ",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "HEATHER HUTT",
+     "council_district": "10",
+     "vote": "YES"
+    },
+    {
+     "name": "YSABEL JURADO",
+     "council_district": "14",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "TIM MCOSKER",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "ADRIN NAZARIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "IMELDA PADILLA",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "TRACI PARK",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "HUGO SOTO-MARTINEZ",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "KATY YAROSLAVSKY",
+     "council_district": "5",
+     "vote": "YES"
+    }
+   ]
+  },
+  {
+   "meeting_date": "06/30/2026",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted to Continue",
+   "vote_given": "(13 - 0 - 2)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "EUNISSES HERNANDEZ",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "HEATHER HUTT",
+     "council_district": "10",
+     "vote": "YES"
+    },
+    {
+     "name": "YSABEL JURADO",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "TIM MCOSKER",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "ADRIN NAZARIAN",
+     "council_district": "2",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "IMELDA PADILLA",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "TRACI PARK",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "YES"
+    },
+    {
+     "name": "HUGO SOTO-MARTINEZ",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "KATY YAROSLAVSKY",
+     "council_district": "5",
+     "vote": "YES"
+    }
+   ]
+  },
+  {
+   "meeting_date": "11/01/2016",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted",
+   "vote_given": "(13 - 0 - 2)",
+   "members": [
+    {
+     "name": "(VACANT)",
+     "council_district": "7",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MIKE BONIN",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "JOE BUSCAINO",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "GILBERT A. CEDILLO",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "MITCHELL ENGLANDER",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "JOSE HUIZAR",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KORETZ",
+     "council_district": "5",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "NURY MARTINEZ",
+     "council_district": "6",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "MITCH O'FARRELL",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "DAVID RYU",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "HERB WESSON",
+     "council_district": "10",
+     "vote": "YES"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=13-0005-S638",
+ "retrieved_at": "2026-10-28T07:08:50"
+}

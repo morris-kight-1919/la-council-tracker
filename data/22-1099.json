@@ -1,0 +1,250 @@
+{
+ "cfnumber": "22-1099",
+ "title": "2020-22 Point-in-Time (PIT) Counts / Affordable Housing Placements / New Shelter Beds and Housing Units / Encampment-to-Homes Operations",
+ "date_received": "09/20/2022",
+ "last_changed": "12/27/2022",
+ "expiration": "11/18/2024",
+ "council_district": null,
+ "mover": "KEVIN DE LEON",
+ "second": "MITCH O'FARRELL",
+ "activities": [
+  {
+   "date": "12/27/2022",
+   "activity": "Community Impact Statement submitted by Mid City WEST Neighborhood Council."
+  },
+  {
+   "date": "11/22/2022",
+   "activity": "Council action final."
+  },
+  {
+   "date": "11/22/2022",
+   "activity": "Council adopted item forthwith."
+  },
+  {
+   "date": "11/18/2022",
+   "activity": "City Clerk scheduled item for Council on November 22, 2022."
+  },
+  {
+   "date": "10/27/2022",
+   "activity": "Homelessness and Poverty Committee approved item(s) ."
+  },
+  {
+   "date": "10/21/2022",
+   "activity": "Homelessness and Poverty Committee scheduled item for committee meeting on October 27, 2022."
+  },
+  {
+   "date": "10/12/2022",
+   "activity": "Homelessness and Poverty Committee meeting scheduled for October 13, 2022 has been cancelled."
+  },
+  {
+   "date": "10/07/2022",
+   "activity": "Homelessness and Poverty Committee scheduled item for committee meeting on October 13, 2022."
+  },
+  {
+   "date": "09/20/2022",
+   "activity": "Motion referred to Homelessness and Poverty Committee."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Community Impact Statement submitted by Mid City WEST Neighborhood Council",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-1099_CIS_12-27-2022.pdf",
+   "date": "12/27/2022"
+  },
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-1099_caf_11-22-22.pdf",
+   "date": "11/22/2022"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-1099_SC_11-22-2022.pdf",
+   "date": "11/22/2022"
+  },
+  {
+   "title": "Report from Homelessness and Poverty Committee",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-1099_rpt_hp_10-27-2022.pdf",
+   "date": "10/27/2022"
+  },
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-1099_PC_AM_09-21-2022.pdf",
+   "date": "09/21/2022"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-1099_misc_0-9-20-22.pdf",
+   "date": "09/20/2022"
+  }
+ ],
+ "vote": {
+  "meeting_date": "11/22/2022",
+  "meeting_type": "Regular",
+  "vote_action": "",
+  "vote_given": "(10 - 0 - 5)",
+  "members": [
+   {
+    "name": "(VACANT) (VACANT)",
+    "council_district": "6",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "MIKE BONIN",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "JOE BUSCAINO",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "GILBERT A. CEDILLO",
+    "council_district": "1",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "KEVIN DELEON",
+    "council_district": "14",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "HEATHER HUTT",
+    "council_district": "10",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "PAUL KORETZ",
+    "council_district": "5",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KREKORIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "JOHN LEE",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "MITCH O'FARRELL",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "NITHYA RAMAN",
+    "council_district": "4",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "YES"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "11/22/2022",
+   "meeting_type": "Regular",
+   "vote_action": "",
+   "vote_given": "(10 - 0 - 5)",
+   "members": [
+    {
+     "name": "(VACANT) (VACANT)",
+     "council_district": "6",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MIKE BONIN",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "JOE BUSCAINO",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "GILBERT A. CEDILLO",
+     "council_district": "1",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "KEVIN DELEON",
+     "council_district": "14",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "HEATHER HUTT",
+     "council_district": "10",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "PAUL KORETZ",
+     "council_district": "5",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "MITCH O'FARRELL",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "YES"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=22-1099",
+ "retrieved_at": "2026-10-28T07:03:08"
+}

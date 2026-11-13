@@ -1,0 +1,7 @@
+{% macro source_link(url, text="View official source") -%}
+{% if url -%}
+<a class="source-link" href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ text }} ↗</a>
+{%- else -%}
+<span class="source-link source-link-missing">No source link recorded</span>
+{%- endif %}
+{%- endmacro %}

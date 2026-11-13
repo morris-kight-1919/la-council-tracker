@@ -1,0 +1,188 @@
+{
+ "cfnumber": "03-1505",
+ "title": "COURT STREET AND BEVERLY BOULEVARD / ALVARADO / ALLEY / VACATION",
+ "date_received": "07/15/2003",
+ "last_changed": "10/07/2003",
+ "expiration": null,
+ "council_district": "13",
+ "mover": "ERIC GARCETTI",
+ "second": "TONY CARDENAS",
+ "activities": [],
+ "documents": [
+  {
+   "title": "Complete Council File",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2003/03-1505.PDF",
+   "date": "01/01/2003"
+  }
+ ],
+ "vote": {
+  "meeting_date": "07/22/2003",
+  "meeting_type": "Regular",
+  "vote_action": "Adopted",
+  "vote_given": "(13 - 0 - 2)",
+  "members": [
+   {
+    "name": "TONY CARDENAS",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "ERIC GARCETTI",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "WENDY GREUEL",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "JANICE HAHN",
+    "council_district": "15",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "TOM LABONGE",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "MARTIN LUDLOW",
+    "council_district": "10",
+    "vote": "YES"
+   },
+   {
+    "name": "CINDY MISCIKOWSKI",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "ALEX PADILLA",
+    "council_district": "7",
+    "vote": "YES"
+   },
+   {
+    "name": "BERNARD C PARKS",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "JAN PERRY",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "ED REYES",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "GREIG SMITH",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "ANTONIO VILLARAIGOSA",
+    "council_district": "14",
+    "vote": "YES"
+   },
+   {
+    "name": "JACK WEISS",
+    "council_district": "5",
+    "vote": "YES"
+   },
+   {
+    "name": "DENNIS ZINE",
+    "council_district": "3",
+    "vote": "ABSENT"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "07/22/2003",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted",
+   "vote_given": "(13 - 0 - 2)",
+   "members": [
+    {
+     "name": "TONY CARDENAS",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "ERIC GARCETTI",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "WENDY GREUEL",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "JANICE HAHN",
+     "council_district": "15",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "TOM LABONGE",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "MARTIN LUDLOW",
+     "council_district": "10",
+     "vote": "YES"
+    },
+    {
+     "name": "CINDY MISCIKOWSKI",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "ALEX PADILLA",
+     "council_district": "7",
+     "vote": "YES"
+    },
+    {
+     "name": "BERNARD C PARKS",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "JAN PERRY",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "ED REYES",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "GREIG SMITH",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "ANTONIO VILLARAIGOSA",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "JACK WEISS",
+     "council_district": "5",
+     "vote": "YES"
+    },
+    {
+     "name": "DENNIS ZINE",
+     "council_district": "3",
+     "vote": "ABSENT"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=03-1505",
+ "retrieved_at": "2026-10-28T07:08:15"
+}

@@ -1,0 +1,223 @@
+{
+ "cfnumber": "21-0710",
+ "title": "Municipal Improvement Corporation of Los Angeles (MICLA) / 2021-22 Adopted Budget / BIID and Homeless Encampment Cleanup / Department of Recreation and Parks",
+ "date_received": "06/22/2021",
+ "last_changed": "08/09/2021",
+ "expiration": "07/27/2023",
+ "council_district": null,
+ "mover": "PAUL KREKORIAN",
+ "second": "JOHN S. LEE",
+ "activities": [
+  {
+   "date": "08/09/2021",
+   "activity": "Council action final."
+  },
+  {
+   "date": "07/30/2021",
+   "activity": "Council adopted item forthwith."
+  },
+  {
+   "date": "07/27/2021",
+   "activity": "City Clerk scheduled item for Council on ."
+  },
+  {
+   "date": "06/28/2021",
+   "activity": "Budget and Finance Committee approved as amended ."
+  },
+  {
+   "date": "06/25/2021",
+   "activity": "Budget and Finance Committee scheduled item for committee meeting on June 28, 2021."
+  },
+  {
+   "date": "06/22/2021",
+   "activity": "Motion referred to Budget and Finance Committee."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Mayor Concurrence/Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-0710_CAF_8-9-21.pd.pdf",
+   "date": "08/09/2021"
+  },
+  {
+   "title": "Report from Budget and Finance Committee",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-0710_rpt_bfc_6-28-21.pdf",
+   "date": "06/28/2021"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-0710_misc_6-21-21.pdf",
+   "date": "06/22/2021"
+  }
+ ],
+ "vote": {
+  "meeting_date": "07/30/2021",
+  "meeting_type": "Regular",
+  "vote_action": "",
+  "vote_given": "(10 - 0 - 5)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "MIKE BONIN",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "JOE BUSCAINO",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "GILBERT A. CEDILLO",
+    "council_district": "1",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "KEVIN DELEON",
+    "council_district": "14",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "PAUL KORETZ",
+    "council_district": "5",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KREKORIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "JOHN LEE",
+    "council_district": "12",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "NURY MARTINEZ",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "MITCH O'FARRELL",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "NITHYA RAMAN",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "MARK RIDLEY-THOMAS",
+    "council_district": "10",
+    "vote": "YES"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "ABSENT"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "07/30/2021",
+   "meeting_type": "Regular",
+   "vote_action": "",
+   "vote_given": "(10 - 0 - 5)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MIKE BONIN",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "JOE BUSCAINO",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "GILBERT A. CEDILLO",
+     "council_district": "1",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "KEVIN DELEON",
+     "council_district": "14",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "PAUL KORETZ",
+     "council_district": "5",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "NURY MARTINEZ",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "MITCH O'FARRELL",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "MARK RIDLEY-THOMAS",
+     "council_district": "10",
+     "vote": "YES"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "ABSENT"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-0710",
+ "retrieved_at": "2026-10-28T07:06:10"
+}

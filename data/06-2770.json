@@ -1,0 +1,44 @@
+{
+ "cfnumber": "06-2770",
+ "title": "HOMELESS ENCAMPMENTS / PUBLIC PROPERTY",
+ "date_received": "11/08/2006",
+ "last_changed": "01/23/2009",
+ "expiration": "11/08/2008",
+ "council_district": null,
+ "mover": "JOSE HUIZAR",
+ "second": "ED REYES",
+ "activities": [
+  {
+   "date": "01/23/2009",
+   "activity": "File closed."
+  },
+  {
+   "date": "01/20/2009",
+   "activity": "Document(s) submitted by City Clerk, as follows: Communication from the City Clerk, dated January 20, 2009, relative to the expiration of Council File 06-2770, inasmuch as the file has not been placed on a Council or Committee agenda for consideration for a period of two years or more and, pursuant to Council policy, the file is deemed received and filed."
+  },
+  {
+   "date": "01/31/2007",
+   "activity": "City Clerk transmitted Council File to Ad Hoc Committee on Homelessness ."
+  },
+  {
+   "date": "11/08/2006",
+   "activity": "Motion referred to Ad Hoc Committee on Homelessness ; Housing, Community and Economic Development Committee."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2006/06-2770_ca_1-20-09.pdf",
+   "date": "01/20/2009"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2006/06-2770_mot_11-8-06.pdf                                                    ",
+   "date": "11/08/2006"
+  }
+ ],
+ "vote": null,
+ "vote_history": [],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=06-2770",
+ "retrieved_at": "2026-10-28T07:07:14"
+}

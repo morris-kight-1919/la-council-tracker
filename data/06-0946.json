@@ -1,0 +1,203 @@
+{
+ "cfnumber": "06-0946",
+ "title": "SALUTE LOS ANGELES DAY / JULY 4TH 2006",
+ "date_received": "04/26/2006",
+ "last_changed": "06/20/2006",
+ "expiration": null,
+ "council_district": "14",
+ "mover": "JAN PERRY",
+ "second": "BERNARD PARKS",
+ "activities": [],
+ "documents": [
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2006/06-0946_ca_6-14-06.pdf                                                     ",
+   "date": "06/14/2006"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2006/06-0946_mot_6-7-06.pdf                                                     ",
+   "date": "06/07/2006"
+  },
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2006/06-0946_ca_5-3-06.pdf                                                      ",
+   "date": "05/03/2006"
+  },
+  {
+   "title": "Resolution",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2006/06-0946_reso.pdf                                                           ",
+   "date": "04/26/2006"
+  }
+ ],
+ "vote": {
+  "meeting_date": "06/14/2006",
+  "meeting_type": "Regular",
+  "vote_action": "Adopted",
+  "vote_given": "(13 - 0 - 2)",
+  "members": [
+   {
+    "name": "TONY CARDENAS",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "ERIC GARCETTI",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "WENDY GREUEL",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "JANICE HAHN",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "JOSE HUIZAR",
+    "council_district": "14",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "TOM LABONGE",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "ALEX PADILLA",
+    "council_district": "7",
+    "vote": "YES"
+   },
+   {
+    "name": "BERNARD C PARKS",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "JAN PERRY",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "ED REYES",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "BILL ROSENDAHL",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "GREIG SMITH",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "JACK WEISS",
+    "council_district": "5",
+    "vote": "YES"
+   },
+   {
+    "name": "HERB WESSON",
+    "council_district": "10",
+    "vote": "YES"
+   },
+   {
+    "name": "DENNIS ZINE",
+    "council_district": "3",
+    "vote": "ABSENT"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "06/14/2006",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted",
+   "vote_given": "(13 - 0 - 2)",
+   "members": [
+    {
+     "name": "TONY CARDENAS",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "ERIC GARCETTI",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "WENDY GREUEL",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "JANICE HAHN",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "JOSE HUIZAR",
+     "council_district": "14",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "TOM LABONGE",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "ALEX PADILLA",
+     "council_district": "7",
+     "vote": "YES"
+    },
+    {
+     "name": "BERNARD C PARKS",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "JAN PERRY",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "ED REYES",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "BILL ROSENDAHL",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "GREIG SMITH",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "JACK WEISS",
+     "council_district": "5",
+     "vote": "YES"
+    },
+    {
+     "name": "HERB WESSON",
+     "council_district": "10",
+     "vote": "YES"
+    },
+    {
+     "name": "DENNIS ZINE",
+     "council_district": "3",
+     "vote": "ABSENT"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=06-0946",
+ "retrieved_at": "2026-10-28T07:07:22"
+}

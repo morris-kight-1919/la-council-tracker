@@ -1,0 +1,224 @@
+{
+ "cfnumber": "24-0114",
+ "title": "1101 South Flower Street / Oceanwide Plaza / Trespassing / Vandalism / Nuisance Abatement",
+ "date_received": "02/02/2024",
+ "last_changed": "02/09/2024",
+ "expiration": "02/08/2026",
+ "council_district": "14",
+ "mover": "KEVIN DE LEON",
+ "second": "PAUL KREKORIAN",
+ "activities": [
+  {
+   "date": "02/09/2024",
+   "activity": "Council action final."
+  },
+  {
+   "date": "02/09/2024",
+   "activity": "Council adopted item forthwith."
+  },
+  {
+   "date": "02/08/2024",
+   "activity": "Council scheduled item for Council on February 9, 2024."
+  },
+  {
+   "date": "02/07/2024",
+   "activity": "Public Works Committee waived consideration of item ."
+  },
+  {
+   "date": "02/02/2024",
+   "activity": "Motion referred to Public Works Committee."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0114_PC_PM_02-09-2024.pdf",
+   "date": "02/09/2024"
+  },
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0114_CAF_2-9-24.pdf",
+   "date": "02/09/2024"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0114_SC_02-09-2024.pdf",
+   "date": "02/09/2024"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0114_misc_02-02-24.pdf",
+   "date": "02/02/2024"
+  }
+ ],
+ "vote": {
+  "meeting_date": "02/09/2024",
+  "meeting_type": "Regular",
+  "vote_action": "Adopted Forthwith",
+  "vote_given": "(14 - 0 - 1)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "KEVIN DELEON",
+    "council_district": "14",
+    "vote": "YES"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "EUNISSES HERNANDEZ",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "HEATHER HUTT",
+    "council_district": "10",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KREKORIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "JOHN LEE",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "TIM MCOSKER",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "IMELDA PADILLA",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "TRACI PARK",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "NITHYA RAMAN",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "YES"
+   },
+   {
+    "name": "HUGO SOTO-MARTINEZ",
+    "council_district": "13",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "KATY YAROSLAVSKY",
+    "council_district": "5",
+    "vote": "YES"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "02/09/2024",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted Forthwith",
+   "vote_given": "(14 - 0 - 1)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "KEVIN DELEON",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "EUNISSES HERNANDEZ",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "HEATHER HUTT",
+     "council_district": "10",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "TIM MCOSKER",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "IMELDA PADILLA",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "TRACI PARK",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "YES"
+    },
+    {
+     "name": "HUGO SOTO-MARTINEZ",
+     "council_district": "13",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "KATY YAROSLAVSKY",
+     "council_district": "5",
+     "vote": "YES"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0114",
+ "retrieved_at": "2026-10-28T07:00:12"
+}

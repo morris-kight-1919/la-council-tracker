@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.10.1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Storage &amp; City Watch — LA Council Tracker</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/missing.css@1.1.1" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Storage &amp; City Watch — LA Council Tracker</h1>
+</header>
+<h1
+id="storage-city-watch-decisions-measurements-and-where-things-stand">Storage
+&amp; City Watch — decisions, measurements, and where things stand</h1>
+<p><em>LA Council Tracker · 7 August 2026</em></p>
+<p>Every number here was measured on the actual corpus unless explicitly
+labelled an estimate.</p>
+<hr />
+<h2 id="the-decision-that-changed-everything">1. The decision that
+changed everything</h2>
+<p>Two design documents shaped this build:</p>
+<ul>
+<li><strong>City Watch.md</strong> — a lessons-learned report from a
+prior agent running a municipal tracker. Core thesis: <em>a municipal
+watch tool fails silently by default.</em> “Nothing happened” and “the
+pipeline is broken” produce identical output unless you design against
+it.</li>
+<li><strong>City Document Parsing Schema — Design.md</strong> (RIP Los
+Angeles) — whose central insight is <strong>treat the PDF as
+disposable</strong>: keep <code>full_text</code> +
+<code>source_url</code> + <code>sha256</code> forever, delete the file,
+re-fetch if ever needed.</li>
+</ul>
+<p>That second idea turned out to be worth roughly two orders of
+magnitude here.</p>
+<h3 id="the-measurement">The measurement</h3>
+<table>
+<tbody>
+<tr>
+<td>Document PDFs</td>
+<td><strong>637 MB</strong></td>
+</tr>
+<tr>
+<td>The same content as extracted text</td>
+<td><strong>10.8 MB</strong></td>
+</tr>
+<tr>
+<td><strong>Ratio</strong></td>
+<td><strong>59× — 98.3% eliminated</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>This is not lossy.</strong> Every deleted PDF has a recorded
+<code>sha256</code> and a live <code>source_url</code>. A 2013-era City
+Clerk <code>onlinedocs</code> URL was tested and still returns
+<strong>HTTP 200</strong> — those paths are stable. The deletion is
+reversible; the originals sit on the City’s servers.</p>
+<p>The sweeper (<code>doc_retention.py</code>) has three safety
+properties: <strong>dry-run is the default</strong>
+(<code>--delete</code> required), it <strong>refuses to delete on a
+sha256 mismatch</strong> rather than destroying evidence of a problem,
+and it <strong>never touches</strong> anything whose
+<code>source_url</code> isn’t a real re-fetchable URL or that’s flagged
+<code>never_delete</code>.</p>
+<h3 id="running-total">Running total</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Before</th>
+<th>Now</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>documents/</code></td>
+<td>649 MB</td>
+<td>17 MB</td>
+</tr>
+<tr>
+<td><code>corpus.db</code></td>
+<td>—</td>
+<td>~59 MB</td>
+</tr>
+<tr>
+<td><code>transcripts/</code> (raw JSON, now duplicated in DB)</td>
+<td>44 MB</td>
+<td>44 MB</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>693 MB</strong></td>
+<td><strong>~120 MB</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>5.8× smaller, with more searchable content than
+before.</strong></p>
+<hr />
+<h2 id="do-we-need-the-5-tb-drive">2. Do we need the 5 TB drive?</h2>
+<p><strong>For this project: no.</strong> For the Morris Kight archive:
+yes, that’s 118 GB of video and audio and it’s the real consumer.</p>
+<p>Projections from measured rates — presented as ranges because
+document counts per file vary enormously (one oil-drilling ordinance is
+73 documents and 94% of the current corpus):</p>
+<table>
+<thead>
+<tr>
+<th>Scale</th>
+<th>Text storage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1,000 council files</td>
+<td>~0.5–2 GB</td>
+</tr>
+<tr>
+<td>10,000 council files</td>
+<td>~5–20 GB</td>
+</tr>
+<tr>
+<td><strong>25 years of every meeting transcript</strong></td>
+<td><strong>~0.5 GB</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Even at the pessimistic end that’s <strong>20–25 GB — about half a
+percent of a 5 TB drive.</strong></p>
+<p>The irony worth recording: <strong>dropping the PDFs is what made the
+drive unnecessary.</strong> Had we kept them, 10,000 council files would
+have been ~96 GB and growing, and the drive would have been a hard
+requirement rather than a convenience.</p>
+<hr />
+<h2 id="lan-storage-yes-for-files-no-for-the-database">3. LAN storage —
+yes for files, no for the database</h2>
+<p>This is not a preference. It is a correctness constraint.</p>
+<h3 id="why-the-database-cant-live-on-a-network-share">Why the database
+can’t live on a network share</h3>
+<ul>
+<li>SQLite’s locking depends on <strong>POSIX advisory locks</strong>,
+which are unreliable over SMB and NFS. Concurrent access can corrupt the
+file.</li>
+<li>This schema uses <strong>WAL mode</strong>, which <strong>does not
+work over a network filesystem at all</strong> — it requires shared
+memory that doesn’t cross a network boundary.</li>
+</ul>
+<h3 id="the-latency-question-measured-and-reasoned">The latency
+question, measured and reasoned</h3>
+<p>Local baseline, median of 8 runs on the real corpus:</p>
+<table>
+<thead>
+<tr>
+<th>Operation</th>
+<th>Local</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FTS phrase search (transcripts)</td>
+<td><strong>0.1 ms</strong></td>
+</tr>
+<tr>
+<td>FTS search (unified index)</td>
+<td><strong>0.0 ms</strong></td>
+</tr>
+<tr>
+<td>Decompress one meeting’s segments</td>
+<td><strong>3.7 ms</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Those are effectively instant. Over a LAN they would not be, and the
+reason is structural rather than bandwidth-related: <strong>SQLite reads
+in 4 KB pages, and a single query may touch hundreds of them at random
+offsets.</strong> Bandwidth is irrelevant to that pattern; per-operation
+round-trip time is what dominates.</p>
+<p><em>Estimate, not measurement (no share was mounted to test):</em> on
+wired gigabit with ~0.2–1 ms round trips, a query touching a few hundred
+uncached pages lands in the tens-to-hundreds of milliseconds — call it
+<strong>100–1000× slower</strong> than the numbers above. SMB client
+caching softens this in practice, but it is the wrong shape of workload
+for a network filesystem regardless.</p>
+<p><strong>Sequential bulk reads are a different story.</strong> Pulling
+a whole PDF or a transcript JSON is bandwidth-bound, not latency-bound,
+and a LAN handles that fine.</p>
+<h3 id="recommended-split">Recommended split</h3>
+<pre><code>LOCAL (internal or directly-attached Thunderbolt)
+    corpus.db          &lt;- 59 MB. Small enough to always live local.
+
+LAN / NAS — fine
+    bulk archival files, backups, video, the Morris Kight material</code></pre>
+<p>Your PDF decision is what makes this clean: at 59 MB the database
+never needs to be anywhere but local.</p>
+<hr />
+<h2 id="the-storage-switch">4. The storage switch</h2>
+<p><code>scripts/storage.py</code> is the single place data location is
+decided. Default is internal — no configuration needed, nothing
+breaks.</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="er">//</span> <span class="er">config.json</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;data_root&quot;</span><span class="er">:</span> <span class="st">&quot;/Volumes/Archive/la-council-tracker&quot;</span>   <span class="er">//</span> <span class="er">external</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;data_root&quot;</span><span class="er">:</span> <span class="kw">null</span>                                     <span class="er">//</span> <span class="er">internal</span> <span class="er">(default)</span></span></code></pre></div>
+<p>Or per-run:
+<code>LA_TRACKER_DATA_ROOT=/Volumes/... python3 check_updates.py</code></p>
+<p>Two guards, both because the failure modes are silent:</p>
+<p><strong>Mount guard.</strong> If <code>data_root</code> is set but
+the volume isn’t mounted, <code>os.makedirs()</code> would happily
+rebuild the tree on the internal disk — leaving two partial archives, a
+health check reporting green, and cumulative silent corruption. So a
+missing sentinel file (<code>.tracker_volume_id</code>) means the script
+<strong>refuses to run</strong> rather than guessing.</p>
+<p><strong>Network-filesystem guard.</strong> <code>db_path()</code>
+detects SMB/NFS/AFP mounts and <strong>refuses to put
+<code>corpus.db</code> there</strong>, for the locking and WAL reasons
+above.</p>
+<p>Check current state any time:
+<code>python3 scripts/storage.py</code></p>
+<hr />
+<h2 id="city-watch-schema-whats-built">5. City Watch schema — what’s
+built</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Piece</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SQLite + FTS5 corpus (<code>db.py</code>)</td>
+<td><strong>Built</strong> — documents, public comments, transcripts,
+emails, outbox, unified search index</td>
+</tr>
+<tr>
+<td>Corpus migration (<code>migrate_to_db.py</code>)</td>
+<td><strong>Built</strong> — 134 docs, 344 comments, 219 meetings</td>
+</tr>
+<tr>
+<td>Public-comment parsing</td>
+<td><strong>Built</strong> — see below</td>
+</tr>
+<tr>
+<td>Retention sweeper (<code>doc_retention.py</code>)</td>
+<td><strong>Built</strong> — 663 MB deleted, dry-run default</td>
+</tr>
+<tr>
+<td>Search tool (<code>corpus_search.py</code>)</td>
+<td><strong>Built</strong> — <em>“build the reader before adding more
+writers”</em></td>
+</tr>
+<tr>
+<td>Transcript storage optimisation</td>
+<td><strong>Built</strong> — 207 MB → 58 MB</td>
+</tr>
+<tr>
+<td>Storage switch (<code>storage.py</code>)</td>
+<td><strong>Built</strong> — internal default, external opt-in</td>
+</tr>
+<tr>
+<td>Document backfill (<code>backfill_documents.py</code>)</td>
+<td><strong>Running</strong></td>
+</tr>
+<tr>
+<td>Email ingestion (<code>email_ingest.py</code>)</td>
+<td><strong>Built</strong>, awaiting subscriptions</td>
+</tr>
+<tr>
+<td>Send semantics (<code>send_digest.py</code>)</td>
+<td><strong>Built and tested</strong>, awaiting SMTP</td>
+</tr>
+<tr>
+<td>Stage model + upcoming-agenda scanner</td>
+<td><strong>Not built</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="public-comment-the-8-finding">Public comment — the 8×
+finding</h3>
+<p>The archived PDFs bundle many comments each. 42 PDFs contained
+<strong>328 individual comments from 315 distinct people</strong>, but
+the old tooling printed one 300-character excerpt per <em>file</em> —
+leaving roughly <strong>87% invisible</strong>. Parsing to one row per
+comment made it all searchable and enabled per-commenter aggregation,
+which immediately surfaced things like an oil company filing six
+comments across two name variants.</p>
+<p>93% of comments are structured web-form submissions; the remaining
+~7% are attached letters (often the most substantive) and are flagged
+<code>needs_review</code> rather than force-parsed into a fabricated
+commenter.</p>
+<h3 id="transcript-coverage-the-other-big-gap">Transcript coverage — the
+other big gap</h3>
+<p>The earlier keyword searches filtered on
+<code>title == 'City Council Meeting'</code>, which silently excluded
+<strong>367 committee meetings</strong> — including 12 Housing and
+Homelessness Committee sessions directly relevant to the investigation.
+Committee is typically where the substantive argument happens; full
+Council often adopts committee reports with little debate.</p>
+<p>Now fetching all meetings with video, SAP-deduplicated (the
+<code>- SAP</code> suffix is the Spanish-language audio track — same
+proceeding, ~half of all records). 2026: <strong>226 unique meetings,
+203 fetched, zero failures, 44 MB.</strong></p>
+<h3 id="send-semantics-the-unfixable-later-item">Send semantics — the
+“unfixable later” item</h3>
+<p>City Watch.md is blunt that this must be right on day one. Properties
+<strong>tested, not assumed</strong>:</p>
+<ul>
+<li><strong>Bare invocation printed the digest and sent
+nothing.</strong> <code>--send</code> is required.</li>
+<li><strong><code>--send</code> with no credentials refused and left
+both test items queued</strong> — the seen-pointer does not advance on
+failure, so nothing is silently dropped.</li>
+<li><code>sent_digests</code> records <em>which items</em> went out, so
+“was this in Tuesday’s digest?” is answerable from the log.</li>
+<li>The digest states its own coverage, so silence is attributable.</li>
+<li>A stale last-sent date is <strong>not</strong> a fault — quiet weeks
+are legitimate.</li>
+</ul>
+<hr />
+<h2 id="bugs-found-and-fixed-along-the-way">6. Bugs found and fixed
+along the way</h2>
+<ul>
+<li><strong>Transcript→agenda-item attribution was confidently
+wrong.</strong> Video anchors are coarse (one meeting: 54 agenda items
+sharing 20 anchors), so remarks during general public comment were
+pinned to unrelated items. Verified case: a comment about <strong>LAFLA
+legal-aid contracts</strong> was attributed to an <strong>oil-and-gas
+drilling ordinance</strong>, which was then auto-added to the watchlist.
+Fixed by removing auto-attribution entirely — hits are surfaced with
+timestamped video links for human judgement.</li>
+<li><strong>Staleness indicator was lying.</strong> The digest reported
+“latest May 29, 2026” while August meetings existed: <code>MAX()</code>
+on display-format dates sorts <code>"May"</code> above
+<code>"Aug"</code> as a string. Added an ISO date column, backfilled 219
+rows. This one mattered disproportionately — a false staleness signal is
+exactly the failure City Watch.md is about.</li>
+<li><strong>61 of 66 watched files had no documents archived.</strong>
+They were baselined before document-tracking existed, so the tracker
+considered their documents already “seen” and would never have gone
+back. Backfill running now.</li>
+<li><strong>Wasted indexes.</strong> A 30 MB index on a ~40-value column
+across 611k rows; a 36 MB UNIQUE index covering an entire text column;
+35 MB of FTS duplicating content it had been handed.</li>
+</ul>
+<hr />
+<h2 id="whats-next">7. What’s next</h2>
+<ol type="1">
+<li><strong>Finish the backfill</strong> (running).</li>
+<li><strong>Stage model + upcoming-agenda scanner.</strong> The tracker
+is currently entirely backward-looking — it reads City Clerk’s activity
+log, which is a record of the past.
+<code>primegov_client.list_upcoming_meetings()</code> already works and
+nothing reads it. Wiring it in gives pre-vote alerts: <em>“CF 24-0909 is
+on the Council agenda in 5 days.”</em> Highest value per unit of work,
+and it needs no credentials.</li>
+<li><strong>Email subscriptions</strong> — ENS and per-council-file.
+Note these aren’t one firehose: City Clerk is one signup <em>per
+file</em>, ENS is a separate area/topic signup. Gmail with 2FA requires
+an <strong>App Password</strong>, not the account password.</li>
+<li><strong>Prune the watchlist</strong> — 30 of 66 files are already
+past expiration.</li>
+<li><strong>Move to external storage</strong> when the drive arrives —
+one config line, plus a verified copy.</li>
+</ol>
+<h3 id="a-note-on-lead-time">A note on lead time</h3>
+<p>Agendas post close to California’s Brown Act floor — <strong>72
+hours</strong> for regular meetings, 24 for special ones. That makes a
+<strong>daily</strong> check the minimum viable cadence: a check run
+“when you think of it” will routinely miss the window entirely. It also
+means scheduling and delivery have to land <em>with</em> the scanner,
+not after it — a scanner nobody is reading is a dead feature.</p>
+</body>
+</html>

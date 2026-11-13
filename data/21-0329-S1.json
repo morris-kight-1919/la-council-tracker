@@ -1,0 +1,228 @@
+{
+ "cfnumber": "21-0329-S1",
+ "title": "Homeless Encampment Assessment Form / Street Engagement Strategy",
+ "date_received": "10/12/2021",
+ "last_changed": "10/20/2021",
+ "expiration": "10/15/2023",
+ "council_district": null,
+ "mover": null,
+ "second": null,
+ "activities": [
+  {
+   "date": "10/20/2021",
+   "activity": "Council action final."
+  },
+  {
+   "date": "10/19/2021",
+   "activity": "Council adopted item, as amended, forthwith."
+  },
+  {
+   "date": "10/15/2021",
+   "activity": "City Clerk scheduled item for Council on October 19, 2021."
+  },
+  {
+   "date": "10/14/2021",
+   "activity": "Homelessness and Poverty Committee waived consideration of item ."
+  },
+  {
+   "date": "10/13/2021",
+   "activity": "City Administrative Officer document(s) referred to Homelessness and Poverty Committee."
+  },
+  {
+   "date": "10/12/2021",
+   "activity": "Document(s) submitted by City Administrative Officer, as follows: City Administrative Officer report 0220-05898-0000, dated October 12, 2021, relative to the disposition of the Homeless Encampment Assessment Form for the Street Engagement Strategy."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Amending Motion (Bonin - Blumenfield)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-0329-S1_misc_Amend_Bonin_Blumenfield_10-19-21.pdf",
+   "date": "10/19/2021"
+  },
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-0329-s1_CAF_10-19-21.pdf",
+   "date": "10/19/2021"
+  },
+  {
+   "title": "Report from City Administrative Officer",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-0329-S1_rpt_cao_10-07-21.pdf",
+   "date": "10/12/2021"
+  },
+  {
+   "title": "Attachment_C",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-0329-S1_misc_c_9-2-21.pdf",
+   "date": "09/02/2021"
+  }
+ ],
+ "vote": {
+  "meeting_date": "10/19/2021",
+  "meeting_type": "Regular",
+  "vote_action": "Adopted as Amended",
+  "vote_given": "(13 - 1 - 1)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "MIKE BONIN",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "JOE BUSCAINO",
+    "council_district": "15",
+    "vote": "NO"
+   },
+   {
+    "name": "GILBERT A. CEDILLO",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "KEVIN DELEON",
+    "council_district": "14",
+    "vote": "YES"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KORETZ",
+    "council_district": "5",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KREKORIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "JOHN LEE",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "NURY MARTINEZ",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "MITCH O'FARRELL",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "NITHYA RAMAN",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "MARK RIDLEY-THOMAS",
+    "council_district": "10",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "YES"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "10/19/2021",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted as Amended",
+   "vote_given": "(13 - 1 - 1)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MIKE BONIN",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "JOE BUSCAINO",
+     "council_district": "15",
+     "vote": "NO"
+    },
+    {
+     "name": "GILBERT A. CEDILLO",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "KEVIN DELEON",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KORETZ",
+     "council_district": "5",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "NURY MARTINEZ",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "MITCH O'FARRELL",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "MARK RIDLEY-THOMAS",
+     "council_district": "10",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "YES"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-0329-S1",
+ "retrieved_at": "2026-10-28T07:05:53"
+}

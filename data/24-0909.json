@@ -1,0 +1,238 @@
+{
+ "cfnumber": "24-0909",
+ "title": "Sepulveda Basin / Encampment Fires / Wildlife Reserve / Water Reclamation Plant / Fire Incident",
+ "date_received": "08/06/2024",
+ "last_changed": "08/30/2024",
+ "expiration": "08/28/2026",
+ "council_district": "6",
+ "mover": "IMELDA PADILLA",
+ "second": "NITHYA RAMAN",
+ "activities": [
+  {
+   "date": "08/30/2024",
+   "activity": "Council action final."
+  },
+  {
+   "date": "08/28/2024",
+   "activity": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51."
+  },
+  {
+   "date": "08/23/2024",
+   "activity": "City Clerk scheduled item for Council on August 28, 2024."
+  },
+  {
+   "date": "08/13/2024",
+   "activity": "Public Safety Committee approved as amended ."
+  },
+  {
+   "date": "08/09/2024",
+   "activity": "Public Safety Committee scheduled item for committee meeting on August 13, 2024."
+  },
+  {
+   "date": "08/06/2024",
+   "activity": "Motion referred to Public Safety Committee."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0909_CA.pdf",
+   "date": "08/30/2024"
+  },
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0909_PC_AM_08-28-2024.pdf",
+   "date": "08/28/2024"
+  },
+  {
+   "title": "Communication(s) from Public",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0909_PC_PM_08-13-2024.pdf",
+   "date": "08/13/2024"
+  },
+  {
+   "title": "Report from Public Safety Committee",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0909_rpt_ps_8-27-2024.pdf",
+   "date": "08/13/2024"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0909_SC_PS_08-13-2024.pdf",
+   "date": "08/13/2024"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0909_misc_8-06-2024.pdf",
+   "date": "08/06/2024"
+  }
+ ],
+ "vote": {
+  "meeting_date": "08/28/2024",
+  "meeting_type": "Regular",
+  "vote_action": "Adopted",
+  "vote_given": "(15 - 0 - 0)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "KEVIN DELEON",
+    "council_district": "14",
+    "vote": "YES"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "EUNISSES HERNANDEZ",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "HEATHER HUTT",
+    "council_district": "10",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KREKORIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "JOHN LEE",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "TIM MCOSKER",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "IMELDA PADILLA",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "TRACI PARK",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "NITHYA RAMAN",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "YES"
+   },
+   {
+    "name": "HUGO SOTO-MARTINEZ",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "KATY YAROSLAVSKY",
+    "council_district": "5",
+    "vote": "YES"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "08/28/2024",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted",
+   "vote_given": "(15 - 0 - 0)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "KEVIN DELEON",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "EUNISSES HERNANDEZ",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "HEATHER HUTT",
+     "council_district": "10",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "TIM MCOSKER",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "IMELDA PADILLA",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "TRACI PARK",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "YES"
+    },
+    {
+     "name": "HUGO SOTO-MARTINEZ",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "KATY YAROSLAVSKY",
+     "council_district": "5",
+     "vote": "YES"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0909",
+ "retrieved_at": "2026-10-28T07:02:40"
+}

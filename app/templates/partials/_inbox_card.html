@@ -1,0 +1,57 @@
+{% from "partials/_status_badge.html" import status_badge %}
+{% from "partials/_source_link.html" import source_link %}
+{% macro inbox_card(item) -%}
+<article class="inbox-card">
+  <header class="inbox-card-header">
+    <span class="inbox-card-source">{{ item.source_title }}</span>
+    <span class="muted small">{{ item.received_at }}</span>
+  </header>
+
+  <p class="inbox-card-excerpt">
+    {{ item.excerpt_before }}<mark>{{ item.excerpt_match }}</mark>{{ item.excerpt_after }}
+  </p>
+
+  <div class="inbox-card-match">
+    {% if item.proposed_cfnumber %}
+      <div>
+        Proposed match:
+        <a href="{{ url_for('council_files.detail', cfnumber=item.proposed_cfnumber) }}">
+          CF {{ item.proposed_cfnumber }} — {{ item.proposed_title }}
+        </a>
+      </div>
+    {% elif item.candidates %}
+      <div class="muted small">
+        No watched file matched directly. Candidate CF numbers mentioned in the source:
+        {% for cf in item.candidates %}<span class="badge badge-neutral">{{ cf }}</span>{% endfor %}
+      </div>
+    {% else %}
+      <div class="muted small">No Council File number found in this source.</div>
+    {% endif %}
+    <div>{{ status_badge('amber', item.confidence) }}</div>
+  </div>
+
+  <p class="inbox-card-why muted small">Why it matched: {{ item.why_matched }}</p>
+  {% if item.decision == 'backlog' %}
+    <p class="muted small">{{ status_badge('neutral', 'Backlog — predates the Inbox, still reviewable') }}</p>
+  {% endif %}
+
+  <form class="inbox-card-actions" method="post" action="{{ url_for('inbox.decide', outbox_id=item.id) }}">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    {% if item.proposed_cfnumber %}
+      <a href="{{ url_for('council_files.detail', cfnumber=item.proposed_cfnumber) }}">Open</a>
+      <button type="submit" name="decision" value="confirmed" class="primary">Confirm</button>
+    {% endif %}
+    <button type="submit" name="decision" value="rejected">Reject</button>
+    <input type="text" name="cfnumber_override" placeholder="CF number, e.g. 26-0386" size="16"
+           pattern="\d{2}-\d{4}(-S\d+)?" title="Format: 26-0386 or 26-0386-S1">
+    <button type="submit" name="decision" value="cfnumber_overridden">Choose Another File</button>
+    <button type="submit" name="decision" value="deferred">Defer</button>
+    <select name="decided_by" aria-label="Reviewer">
+      <option value="">Reviewer…</option>
+      <option value="Morris">Morris</option>
+      <option value="Richard">Richard</option>
+    </select>
+    {{ source_link(item.source_url, "View Source") }}
+  </form>
+</article>
+{%- endmacro %}

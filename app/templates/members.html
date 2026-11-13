@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}Members — LA Council Tracker{% endblock %}
+{% block page_title %}Council Members{% endblock %}
+{% block content %}
+
+<p class="page-intro">Search by name to see a member's voting record on watched Council Files. Scoped to files this tracker actually watches, not the full Council's history.</p>
+
+<form class="page-intro" method="get" action="{{ url_for('members.index') }}">
+  <input type="search" name="q" value="{{ query }}" placeholder="Member name…" style="padding:0.4rem 0.6rem; border:1px solid var(--border); border-radius:var(--radius); width:280px;">
+  <button type="submit">Search</button>
+</form>
+
+{% if query %}
+  {% if names %}
+    <ul class="action-queue">
+      {% for n in names %}
+        <li class="action-item"><a href="{{ url_for('members.detail', name=n) }}">{{ n }}</a></li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    {{ empty_state("No member matches “" + query + "”.") }}
+  {% endif %}
+{% endif %}
+
+{% endblock %}

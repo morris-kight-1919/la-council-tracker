@@ -1,0 +1,15 @@
+<nav class="sidebar" aria-label="Primary">
+  <div class="brand">LA Council Tracker</div>
+  <ul class="nav-list">
+    <li><a href="{{ url_for('today.today') }}" class="{{ 'active' if request.endpoint == 'today.today' }}">Today</a></li>
+    <li><a href="{{ url_for('inbox.inbox') }}" class="{{ 'active' if request.endpoint == 'inbox.inbox' }}">Inbox</a></li>
+    <li><a href="{{ url_for('watchlist.watchlist') }}" class="{{ 'active' if request.endpoint == 'watchlist.watchlist' }}">Watchlist</a></li>
+    <li><a href="{{ url_for('calendar.calendar') }}" class="{{ 'active' if request.endpoint == 'calendar.calendar' }}">Calendar</a></li>
+    <li><a href="{{ url_for('stubs.council_files_list') }}" class="{{ 'active' if request.endpoint == 'stubs.council_files_list' or request.endpoint == 'council_files.detail' }}">Council Files</a></li>
+    <li><a href="{{ url_for('sources.sources') }}" class="{{ 'active' if request.endpoint == 'sources.sources' }}">Sources</a></li>
+    <li><a href="{{ url_for('rules.rules') }}" class="{{ 'active' if request.endpoint == 'rules.rules' }}">What to Watch</a></li>
+    <li><a href="{{ url_for('activity.activity') }}" class="{{ 'active' if request.endpoint == 'activity.activity' }}">Activity</a></li>
+    <li><a href="{{ url_for('stubs.settings') }}" class="{{ 'active' if request.endpoint == 'stubs.settings' }}">Settings</a></li>
+  </ul>
+  <div class="sidebar-footer">Local only · not on the internet</div>
+</nav>

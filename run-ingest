@@ -1,0 +1,12 @@
+#!/bin/bash
+# Runs the daily ingestion pipeline by hand -- the same one the scheduled
+# LaunchAgent already runs automatically every morning at 7am. Safe to run
+# any time; every step it calls is idempotent/resumable.
+set -uo pipefail
+cd "$(dirname "$0")"
+
+if [ -d .venv ]; then
+    source .venv/bin/activate
+fi
+
+./scripts/run_daily.sh

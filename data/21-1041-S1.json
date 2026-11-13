@@ -1,0 +1,219 @@
+{
+ "cfnumber": "21-1041-S1",
+ "title": "Encampment to Home Program / Los Angeles Housing Department / Los Angeles Homeless Services Authority (LAHSA) / Council District 4 / General City Purposes Fund",
+ "date_received": "06/07/2022",
+ "last_changed": "06/22/2022",
+ "expiration": "06/14/2024",
+ "council_district": "4",
+ "mover": "NITHYA RAMAN",
+ "second": "MONICA RODRIGUEZ",
+ "activities": [
+  {
+   "date": "06/22/2022",
+   "activity": "Council action final."
+  },
+  {
+   "date": "06/15/2022",
+   "activity": "City Clerk transmitted file to Mayor. Last day for Mayor to act is June 27, 2022."
+  },
+  {
+   "date": "06/14/2022",
+   "activity": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51."
+  },
+  {
+   "date": "06/10/2022",
+   "activity": "City Clerk scheduled item for Council on June 14, 2022."
+  },
+  {
+   "date": "06/07/2022",
+   "activity": "Motion referred to Council."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Mayor Concurrence/Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1041-S1_misc_6-22-22.pdf",
+   "date": "06/22/2022"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1041-S1_SC_06-14-2022.pdf",
+   "date": "06/14/2022"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1041-S1_mot_6-07-22.pdf",
+   "date": "06/07/2022"
+  }
+ ],
+ "vote": {
+  "meeting_date": "06/14/2022",
+  "meeting_type": "Regular",
+  "vote_action": "",
+  "vote_given": "(14 - 0 - 1)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "MIKE BONIN",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "JOE BUSCAINO",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "GILBERT A. CEDILLO",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "KEVIN DELEON",
+    "council_district": "14",
+    "vote": "YES"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KORETZ",
+    "council_district": "5",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KREKORIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "JOHN LEE",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "NURY MARTINEZ",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "MITCH O'FARRELL",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "NITHYA RAMAN",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "YES"
+   },
+   {
+    "name": "HERB WESSON",
+    "council_district": "10",
+    "vote": "ABSENT"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "06/14/2022",
+   "meeting_type": "Regular",
+   "vote_action": "",
+   "vote_given": "(14 - 0 - 1)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MIKE BONIN",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "JOE BUSCAINO",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "GILBERT A. CEDILLO",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "KEVIN DELEON",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KORETZ",
+     "council_district": "5",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "NURY MARTINEZ",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "MITCH O'FARRELL",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "YES"
+    },
+    {
+     "name": "HERB WESSON",
+     "council_district": "10",
+     "vote": "ABSENT"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-1041-S1",
+ "retrieved_at": "2026-10-28T07:03:18"
+}

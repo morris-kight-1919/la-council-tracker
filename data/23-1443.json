@@ -1,0 +1,281 @@
+{
+ "cfnumber": "23-1443",
+ "title": "Encampment Resolution Funding (ERF) Program / California Interagency Council on Homelessness / People Experiencing Homelessness",
+ "date_received": "12/15/2023",
+ "last_changed": "04/23/2025",
+ "expiration": "04/22/2027",
+ "council_district": null,
+ "mover": "MONICA RODRIGUEZ",
+ "second": "BOB BLUMENFIELD",
+ "activities": [
+  {
+   "date": "04/23/2025",
+   "activity": "Council action final."
+  },
+  {
+   "date": "04/22/2025",
+   "activity": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51."
+  },
+  {
+   "date": "04/18/2025",
+   "activity": "City Clerk scheduled item for Council on April 22, 2025."
+  },
+  {
+   "date": "03/26/2025",
+   "activity": "Housing and Homelessness Committee approved item(s) ."
+  },
+  {
+   "date": "03/21/2025",
+   "activity": "Housing and Homelessness Committee scheduled item for committee meeting on March 26, 2025."
+  },
+  {
+   "date": "03/05/2025",
+   "activity": "Chief Legislative Analyst document(s) referred to Housing and Homelessness Committee."
+  },
+  {
+   "date": "03/04/2025",
+   "activity": "Document(s) submitted by Chief Legislative Analyst, as follows: Chief Legislative Analyst report, dated March 4, 2025, relative to a citywide process for grant applications for Encampment Resolution Funding."
+  },
+  {
+   "date": "02/07/2024",
+   "activity": "Council action final."
+  },
+  {
+   "date": "02/06/2024",
+   "activity": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51."
+  },
+  {
+   "date": "02/02/2024",
+   "activity": "City Clerk scheduled item for Council on February 6, 2024."
+  },
+  {
+   "date": "01/17/2024",
+   "activity": "Housing and Homelessness Committee approved item(s) ."
+  },
+  {
+   "date": "01/12/2024",
+   "activity": "Housing and Homelessness Committee scheduled item for committee meeting on January 17, 2024."
+  },
+  {
+   "date": "12/15/2023",
+   "activity": "Motion referred to Housing and Homelessness Committee."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1443_CA.pdf",
+   "date": "04/23/2025"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1443_SC_04-22-2025.pdf",
+   "date": "04/22/2025"
+  },
+  {
+   "title": "Report from Housing and Homelessness Committee",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1443_rpt_hh_3-26-25.pdf",
+   "date": "03/26/2025"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1443_SC_HH_03-26-2025.pdf",
+   "date": "03/26/2025"
+  },
+  {
+   "title": "Report from Chief Legislative Analyst",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1443_rpt_cla_3-4-25.pdf",
+   "date": "03/04/2025"
+  },
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1443_caf_02-06-24.pdf",
+   "date": "02/07/2024"
+  },
+  {
+   "title": "Report from Housing and Homelessness Committee",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1443_rpt_hh_1-17-2024.pdf",
+   "date": "01/17/2024"
+  },
+  {
+   "title": "Speaker Card(s)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1443_SC_HH_01-17-2024.pdf",
+   "date": "01/17/2024"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-1443_misc_12-15-23.pdf",
+   "date": "12/15/2023"
+  }
+ ],
+ "vote": {
+  "meeting_date": "04/22/2025",
+  "meeting_type": "Regular",
+  "vote_action": "Adopted",
+  "vote_given": "(11 - 0 - 4)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "EUNISSES HERNANDEZ",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "HEATHER HUTT",
+    "council_district": "10",
+    "vote": "YES"
+   },
+   {
+    "name": "YSABEL JURADO",
+    "council_district": "14",
+    "vote": "YES"
+   },
+   {
+    "name": "JOHN LEE",
+    "council_district": "12",
+    "vote": "YES"
+   },
+   {
+    "name": "TIM MCOSKER",
+    "council_district": "15",
+    "vote": "YES"
+   },
+   {
+    "name": "ADRIN NAZARIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "IMELDA PADILLA",
+    "council_district": "6",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "TRACI PARK",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "NITHYA RAMAN",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "HUGO SOTO-MARTINEZ",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "KATY YAROSLAVSKY",
+    "council_district": "5",
+    "vote": "YES"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "04/22/2025",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted",
+   "vote_given": "(11 - 0 - 4)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "EUNISSES HERNANDEZ",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "HEATHER HUTT",
+     "council_district": "10",
+     "vote": "YES"
+    },
+    {
+     "name": "YSABEL JURADO",
+     "council_district": "14",
+     "vote": "YES"
+    },
+    {
+     "name": "JOHN LEE",
+     "council_district": "12",
+     "vote": "YES"
+    },
+    {
+     "name": "TIM MCOSKER",
+     "council_district": "15",
+     "vote": "YES"
+    },
+    {
+     "name": "ADRIN NAZARIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "IMELDA PADILLA",
+     "council_district": "6",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "TRACI PARK",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "NITHYA RAMAN",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "HUGO SOTO-MARTINEZ",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "KATY YAROSLAVSKY",
+     "council_district": "5",
+     "vote": "YES"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1443",
+ "retrieved_at": "2026-10-28T07:01:36"
+}

@@ -1,0 +1,31 @@
+{% from "partials/_status_badge.html" import status_badge %}
+{% macro file_row(file) -%}
+<tr>
+  <td class="col-title">
+    <a href="{{ url_for('council_files.detail', cfnumber=file.cfnumber) }}">{{ file.title }}</a>
+  </td>
+  <td class="col-cf">
+    <a href="{{ url_for('council_files.detail', cfnumber=file.cfnumber) }}">{{ file.cfnumber }}</a>
+    <a class="external" href="{{ file.official_url }}" target="_blank" rel="noopener noreferrer" title="Official City Clerk record">↗</a>
+  </td>
+  <td>{{ status_badge('blue', file.status_label) }}</td>
+  <td>
+    {% if file.next_event_date %}
+      {{ file.next_event_label }} — {{ file.next_event_date }}
+    {% else %}
+      <span class="muted">No upcoming hearing found</span>
+    {% endif %}
+  </td>
+  <td>{{ file.committee }}</td>
+  <td>{{ status_badge('amber', file.confidence) }}<div class="muted small">{{ file.why_watched }}</div></td>
+  <td class="muted small">{{ file.status_as_of }}</td>
+  <td class="muted small">{{ file.last_checked }}</td>
+  <td>
+    <form method="post" action="{{ url_for('watchlist.remove', cf=file.cfnumber) }}"
+          onsubmit="return confirm('Stop watching {{ file.cfnumber }}?');">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <button type="submit" class="link-button">Stop watching</button>
+    </form>
+  </td>
+</tr>
+{%- endmacro %}

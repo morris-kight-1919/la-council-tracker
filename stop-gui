@@ -1,0 +1,21 @@
+#!/bin/bash
+# Stops the local GUI server started by ./start-gui.
+cd "$(dirname "$0")"
+
+if [ -f instance/gui.pid ]; then
+    PID=$(cat instance/gui.pid)
+    if kill -0 "$PID" 2>/dev/null; then
+        kill "$PID"
+        rm -f instance/gui.pid
+        echo "Stopped the GUI server (PID $PID)."
+        exit 0
+    fi
+    rm -f instance/gui.pid
+fi
+
+echo "No running GUI server found."
+echo ""
+echo "If one is still running, you can:"
+echo "  1. Go back to the window where you ran ./start-gui and press Ctrl-C, or"
+echo "  2. Find it manually:  lsof -i :5055   (or whatever PORT is set in .env)"
+echo "     then stop it:      kill <PID>"

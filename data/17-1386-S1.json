@@ -1,0 +1,242 @@
+{
+ "cfnumber": "17-1386-S1",
+ "title": "Special 1 Motion / Skirball Fire / Homeless Encampment / Illegal Fires and Campsites",
+ "date_received": "12/13/2017",
+ "last_changed": "10/10/2019",
+ "expiration": "12/13/2019",
+ "council_district": "5",
+ "mover": "PAUL KORETZ",
+ "second": "MIKE BONIN",
+ "activities": [
+  {
+   "date": "10/10/2019",
+   "activity": "Community Impact Statement submitted by Sunland-Tujunga Neighborhood Council."
+  },
+  {
+   "date": "02/28/2019",
+   "activity": "Community Impact Statement submitted by Foothill Trails District Neighborhood Council."
+  },
+  {
+   "date": "01/29/2019",
+   "activity": "Community Impact Statement submitted by Sylmar Neighborhood Council."
+  },
+  {
+   "date": "01/03/2018",
+   "activity": "Community Impact Statement submitted by Bel Air-Beverly Crest Neighborhood Council."
+  },
+  {
+   "date": "12/15/2017",
+   "activity": "Council action final."
+  },
+  {
+   "date": "12/13/2017",
+   "activity": "Council adopted item forthwith."
+  },
+  {
+   "date": "12/13/2017",
+   "activity": "Motion introduced in Council."
+  }
+ ],
+ "documents": [
+  {
+   "title": "Community Impact Statement submitted by Sunland-Tujunga Neighborhood Council",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2017/17-1386-S1_CIS_10102019014149_10-10-2019.pdf",
+   "date": "10/10/2019"
+  },
+  {
+   "title": "Community Impact Statement submitted by Foothill Trails District Neighborhood Council",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2017/17-1386-S1_CIS_02282019101522_02-28-2019.pdf",
+   "date": "02/28/2019"
+  },
+  {
+   "title": "Community Impact Statement submitted by Sylmar Neighborhood Council",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2017/17-1386-S1_CIS_01292019065549_01-29-2019.pdf",
+   "date": "01/29/2019"
+  },
+  {
+   "title": "Community Impact Statement submitted by Bel Air-Beverly Crest Neighborhood Council",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2017/17-1386-s1_cis_1-3-18.pdf",
+   "date": "01/03/2018"
+  },
+  {
+   "title": "Council Action",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2017/17-1386-S1_CA_12-15-2017.pdf",
+   "date": "12/15/2017"
+  },
+  {
+   "title": "Motion",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2017/17-1386-s1_mot_12-13-2017.pdf",
+   "date": "12/13/2017"
+  }
+ ],
+ "vote": {
+  "meeting_date": "12/13/2017",
+  "meeting_type": "Regular",
+  "vote_action": "Adopted",
+  "vote_given": "(11 - 0 - 4)",
+  "members": [
+   {
+    "name": "BOB BLUMENFIELD",
+    "council_district": "3",
+    "vote": "YES"
+   },
+   {
+    "name": "MIKE BONIN",
+    "council_district": "11",
+    "vote": "YES"
+   },
+   {
+    "name": "JOE BUSCAINO",
+    "council_district": "15",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "GILBERT A. CEDILLO",
+    "council_district": "1",
+    "vote": "YES"
+   },
+   {
+    "name": "MITCHELL ENGLANDER",
+    "council_district": "12",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "MARQUEECE HARRIS-DAWSON",
+    "council_district": "8",
+    "vote": "YES"
+   },
+   {
+    "name": "JOSE HUIZAR",
+    "council_district": "14",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "PAUL KORETZ",
+    "council_district": "5",
+    "vote": "YES"
+   },
+   {
+    "name": "PAUL KREKORIAN",
+    "council_district": "2",
+    "vote": "YES"
+   },
+   {
+    "name": "NURY MARTINEZ",
+    "council_district": "6",
+    "vote": "YES"
+   },
+   {
+    "name": "MITCH O'FARRELL",
+    "council_district": "13",
+    "vote": "YES"
+   },
+   {
+    "name": "CURREN D. PRICE",
+    "council_district": "9",
+    "vote": "YES"
+   },
+   {
+    "name": "MONICA RODRIGUEZ",
+    "council_district": "7",
+    "vote": "ABSENT"
+   },
+   {
+    "name": "DAVID RYU",
+    "council_district": "4",
+    "vote": "YES"
+   },
+   {
+    "name": "HERB WESSON",
+    "council_district": "10",
+    "vote": "YES"
+   }
+  ]
+ },
+ "vote_history": [
+  {
+   "meeting_date": "12/13/2017",
+   "meeting_type": "Regular",
+   "vote_action": "Adopted",
+   "vote_given": "(11 - 0 - 4)",
+   "members": [
+    {
+     "name": "BOB BLUMENFIELD",
+     "council_district": "3",
+     "vote": "YES"
+    },
+    {
+     "name": "MIKE BONIN",
+     "council_district": "11",
+     "vote": "YES"
+    },
+    {
+     "name": "JOE BUSCAINO",
+     "council_district": "15",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "GILBERT A. CEDILLO",
+     "council_district": "1",
+     "vote": "YES"
+    },
+    {
+     "name": "MITCHELL ENGLANDER",
+     "council_district": "12",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "MARQUEECE HARRIS-DAWSON",
+     "council_district": "8",
+     "vote": "YES"
+    },
+    {
+     "name": "JOSE HUIZAR",
+     "council_district": "14",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "PAUL KORETZ",
+     "council_district": "5",
+     "vote": "YES"
+    },
+    {
+     "name": "PAUL KREKORIAN",
+     "council_district": "2",
+     "vote": "YES"
+    },
+    {
+     "name": "NURY MARTINEZ",
+     "council_district": "6",
+     "vote": "YES"
+    },
+    {
+     "name": "MITCH O'FARRELL",
+     "council_district": "13",
+     "vote": "YES"
+    },
+    {
+     "name": "CURREN D. PRICE",
+     "council_district": "9",
+     "vote": "YES"
+    },
+    {
+     "name": "MONICA RODRIGUEZ",
+     "council_district": "7",
+     "vote": "ABSENT"
+    },
+    {
+     "name": "DAVID RYU",
+     "council_district": "4",
+     "vote": "YES"
+    },
+    {
+     "name": "HERB WESSON",
+     "council_district": "10",
+     "vote": "YES"
+    }
+   ]
+  }
+ ],
+ "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-1386-S1",
+ "retrieved_at": "2026-10-28T07:06:19"
+}

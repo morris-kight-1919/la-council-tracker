@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}LA Council Tracker{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="shell">
+    {% include "partials/_sidebar.html" %}
+
+    <div class="main">
+      <header class="topbar">
+        <h1 class="page-title">{% block page_title %}{% endblock %}</h1>
+        <form class="search" action="{{ url_for('search.search') }}" method="get" role="search">
+          <input type="search" name="q" placeholder="Search Council Files, sources, notes…" aria-label="Search"
+                 value="{{ request.args.get('q', '') if request.endpoint == 'search.search' else '' }}">
+        </form>
+        {% if current_user %}
+          <form class="account" method="post" action="{{ url_for('auth.logout') }}">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <span class="account-user">{{ current_user }}</span>
+            <button type="submit" class="link-button">Sign out</button>
+          </form>
+        {% endif %}
+      </header>
+
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          <div class="flash-area">
+            {% for category, message in messages %}
+              <div class="flash flash-{{ category }}">{{ message }}</div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endwith %}
+
+      <main class="content">
+        {% block content %}{% endblock %}
+      </main>
+    </div>
+  </div>
+</body>
+</html>

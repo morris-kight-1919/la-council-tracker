@@ -1,0 +1,6 @@
+{% macro empty_state(message, sub=None) -%}
+<div class="empty-state">
+  <p class="empty-state-message">{{ message }}</p>
+  {% if sub %}<p class="empty-state-sub">{{ sub }}</p>{% endif %}
+</div>
+{%- endmacro %}

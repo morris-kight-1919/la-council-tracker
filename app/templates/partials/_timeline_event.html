@@ -1,0 +1,19 @@
+{% from "partials/_status_badge.html" import status_badge %}
+{% from "partials/_source_link.html" import source_link %}
+{% macro timeline_event(event) -%}
+<li class="timeline-event">
+  <div class="timeline-date">{{ event.date }}</div>
+  <div class="timeline-body">
+    <div class="timeline-type">{{ event.event_type }}</div>
+    <p class="timeline-description">{{ event.description }}</p>
+    <div class="timeline-meta">
+      {{ source_link(event.source_url, event.source_title) }}
+      <span class="muted small">retrieved {{ event.retrieved_at }}</span>
+      {% if event.confidence %}{{ status_badge('amber', event.confidence) }}{% endif %}
+    </div>
+    {% if event.why_linked %}
+      <p class="timeline-why muted small">Why this was linked: {{ event.why_linked }}</p>
+    {% endif %}
+  </div>
+</li>
+{%- endmacro %}

@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% from "partials/_status_badge.html" import status_badge %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}Today — LA Council Tracker{% endblock %}
+{% block page_title %}Today{% endblock %}
+{% block content %}
+
+<div class="card-row">
+  <a href="{{ url_for('inbox.inbox') }}" class="summary-card">
+    <div class="summary-card-count">{{ needs_review_count }}</div>
+    <div class="summary-card-label">Needs Review</div>
+  </a>
+  <a href="{{ url_for('calendar.calendar') }}" class="summary-card">
+    <div class="summary-card-count">{{ hearings|length }}</div>
+    <div class="summary-card-label">Upcoming Hearings</div>
+  </a>
+  <a href="{{ url_for('calendar.calendar') }}" class="summary-card">
+    <div class="summary-card-count">{{ deadlines|length }}</div>
+    <div class="summary-card-label">Comment Deadlines</div>
+  </a>
+  <a href="{{ url_for('activity.activity') }}" class="summary-card {{ 'summary-card-warn' if problems }}">
+    <div class="summary-card-count">{{ problems|length }}</div>
+    <div class="summary-card-label">Source Problems</div>
+  </a>
+</div>
+
+{% if problems %}
+<section class="panel panel-warn">
+  <h2>Source problems</h2>
+  {% for p in problems %}
+    <p><strong>{{ p.script }}</strong> — {{ p.message }}
+      <span class="muted small">({{ p.timestamp }})</span>
+    </p>
+  {% endfor %}
+  <p class="muted small">This is a pipeline/fetch issue, not a Council action — kept separate from the queue below on purpose.</p>
+</section>
+{% endif %}
+
+{% if deadlines %}
+<section class="panel">
+  <h2>Comment deadlines</h2>
+  {% for d in deadlines %}
+    <p>
+      {{ status_badge('red' if d.status == 'open' else 'neutral', d.status|capitalize) }}
+      CF {{ d.cfnumber }} — deadline {{ d.deadline }}
+    </p>
+    {% if d.note %}<p class="muted small">{{ d.note }}</p>{% endif %}
+  {% endfor %}
+</section>
+{% endif %}
+
+<section class="panel">
+  <h2>Action queue</h2>
+  {% if action_queue %}
+    <ul class="action-queue">
+      {% for a in action_queue %}
+        <li class="action-item">
+          <div class="action-summary">{{ a.summary }}</div>
+          {% if a.detail %}<div class="muted small">{{ a.detail }}</div>{% endif %}
+          <div class="action-buttons">
+            <a href="{{ a.open_url }}">Open</a>
+            {% if a.id %}
+              <form method="post" action="{{ url_for('today.ack', outbox_id=a.id) }}" style="display:contents">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <button type="submit" name="decision" value="dismissed">Dismiss</button>
+                <button type="submit" name="decision" value="snoozed">Snooze</button>
+              </form>
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    {{ empty_state("Nothing needs your attention right now.") }}
+  {% endif %}
+</section>
+
+{% endblock %}

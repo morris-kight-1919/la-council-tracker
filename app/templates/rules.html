@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% from "partials/_status_badge.html" import status_badge %}
+{% block title %}What to Watch — LA Council Tracker{% endblock %}
+{% block page_title %}What to Watch{% endblock %}
+{% block content %}
+
+<p class="page-intro">
+  What the pipeline currently scores content against. {{ status_badge('amber', 'Read-only for now') }}
+  — an editable rule builder with a "test against recent notices" preview is a larger piece of
+  work than the rest of this console; this page shows the real, current configuration honestly
+  instead of a half-built editor.
+</p>
+
+<section class="panel">
+  <h2>Tier 7 — named people &amp; organizations</h2>
+  <p class="muted small">Weight {{ tier7.weight }} per hit. Specific to this investigation, not the general demolition/preservation model.</p>
+  <p>{% for t in tier7.terms %}<span class="badge badge-neutral">{{ t }}</span> {% endfor %}</p>
+</section>
+
+{% for tier in tiers %}
+<section class="panel">
+  <h2>{{ tier.title }}</h2>
+  <p class="muted small">Weight {{ tier.weight }} per hit (capped at 4 hits/document).</p>
+  <p>{% for t in tier.terms %}<span class="badge badge-neutral">{{ t }}</span> {% endfor %}</p>
+</section>
+{% endfor %}
+
+<section class="panel">
+  <h2>{{ ceqa.title }}</h2>
+  <p class="muted small">Weight {{ ceqa.weight }} per hit.</p>
+  <p>{% for t in ceqa.terms %}<span class="badge badge-neutral">{{ t }}</span> {% endfor %}</p>
+</section>
+
+<section class="panel panel-warn">
+  <h2>Suppressed (never deleted, just deprioritized)</h2>
+  <p class="muted small">Content matching these terms is flagged low-value unless something else about it scores above {{ threshold }} anyway. It stays in the corpus and stays searchable — nothing is ever silently discarded.</p>
+  <p>{% for t in suppress_terms %}<span class="badge badge-neutral">{{ t }}</span> {% endfor %}</p>
+</section>
+
+{% endblock %}

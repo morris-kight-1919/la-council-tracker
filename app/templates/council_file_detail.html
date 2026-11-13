@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% from "partials/_status_badge.html" import status_badge %}
+{% from "partials/_source_link.html" import source_link %}
+{% from "partials/_timeline_event.html" import timeline_event %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}CF {{ record.cfnumber }} — LA Council Tracker{% endblock %}
+{% block page_title %}CF {{ record.cfnumber }}{% endblock %}
+{% block content %}
+
+<section class="cf-header panel">
+  <div class="cf-header-top">
+    <div>
+      <h2 class="cf-title">{{ record.title }}</h2>
+      <p class="muted">CF {{ record.cfnumber }} &middot; {{ source_link(record.official_url, "View official City Clerk record") }}</p>
+    </div>
+    <div class="cf-header-actions">
+      <form method="post" action="{{ url_for('council_files.toggle_watch', cfnumber=record.cfnumber) }}">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <button type="submit" class="{{ 'primary' if record.watched }}">
+          {{ "Watching — click to stop" if record.watched else "Not watching — click to watch" }}
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="cf-header-facts">
+    <div>
+      {{ status_badge('blue', record.status_label) }}
+      <span class="muted small">as of {{ record.status_as_of }} — {{ record.status_detail }}</span>
+    </div>
+    <div>
+      {% if record.next_event_date %}
+        Next known event: <strong>{{ record.next_event_label }}</strong> on {{ record.next_event_date }}
+      {% else %}
+        <span class="muted">No upcoming hearing found in tracked sources.</span>
+      {% endif %}
+    </div>
+    <div class="muted small">Last checked {{ record.last_checked }}</div>
+  </div>
+</section>
+
+<nav class="cf-tabs" aria-label="Sections">
+  <a href="#overview">Overview</a>
+  <a href="#timeline">Timeline</a>
+  <a href="#documents">Documents</a>
+  <a href="#comments">Public comments</a>
+  <a href="#notes">Notes</a>
+  <a href="#activity">Agent activity</a>
+</nav>
+
+<section id="overview" class="panel">
+  <h2>Overview</h2>
+  <p>{{ status_badge('amber', record.confidence) }} <span class="muted small">{{ record.why_watched }}</span></p>
+  <p class="muted small">Committee / body: {{ record.committee }}</p>
+</section>
+
+<section id="timeline" class="panel">
+  <h2>Timeline</h2>
+  {% if timeline %}
+    <ul class="timeline-list">
+      {% for event in timeline %}{{ timeline_event(event) }}{% endfor %}
+    </ul>
+  {% else %}
+    {{ empty_state("No timeline events recorded yet.") }}
+  {% endif %}
+</section>
+
+<section id="documents" class="panel">
+  <h2>Documents</h2>
+  {% if documents %}
+    <ul class="doc-list">
+      {% for d in documents %}
+        <li>
+          <strong>{{ d.title }}</strong> <span class="muted small">({{ d.doc_type }}, {{ d.doc_date }})</span><br>
+          {{ source_link(d.source_url, "View document") }}
+          <span class="muted small">retrieved {{ d.retrieved_at }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    {{ empty_state("No documents archived yet.") }}
+  {% endif %}
+</section>
+
+<section id="comments" class="panel">
+  <h2>Public comments</h2>
+  {% if comments %}
+    <ul class="comment-list">
+      {% for c in comments %}<li>{{ c }}</li>{% endfor %}
+    </ul>
+  {% else %}
+    {{ empty_state("No public comments recorded for this file.") }}
+  {% endif %}
+</section>
+
+<section id="notes" class="panel">
+  <h2>Notes</h2>
+  {{ empty_state("Coming soon.", "Local notes will be editable here once the review actions are wired up.") }}
+</section>
+
+<section id="activity" class="panel">
+  <h2>Agent activity</h2>
+  {{ empty_state("Coming soon.", "Pipeline run history for this file (fetches, extractions, match decisions) will appear here.") }}
+</section>
+
+{% endblock %}

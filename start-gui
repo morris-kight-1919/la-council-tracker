@@ -1,0 +1,45 @@
+#!/bin/bash
+# Starts the local GUI. Safe to run any time -- sets up the virtual
+# environment on first run only, otherwise just starts the server.
+set -euo pipefail
+cd "$(dirname "$0")"
+
+if [ ! -d .venv ]; then
+    echo "First run: setting up .venv..."
+    python3 -m venv .venv
+fi
+
+source .venv/bin/activate
+pip install --quiet -r requirements.txt
+
+if [ ! -f .env ]; then
+    cp .env.example .env
+    echo "Created .env from .env.example (edit it if you want a different port)."
+fi
+
+PORT=$(grep -E '^PORT=' .env | head -1 | cut -d= -f2)
+PORT=${PORT:-5055}
+
+mkdir -p instance
+
+cleanup() {
+    rm -f instance/gui.pid
+}
+trap cleanup EXIT
+
+export FLASK_APP=app
+
+python3 -m flask run --host 127.0.0.1 --port "$PORT" &
+GUI_PID=$!
+echo $GUI_PID > instance/gui.pid
+trap 'kill $GUI_PID 2>/dev/null; cleanup; exit 0' INT TERM
+
+sleep 1
+echo ""
+echo "LA Council Tracker GUI is running:"
+echo "  http://127.0.0.1:$PORT"
+echo ""
+echo "Leave this window open, or stop it any time from another window with: ./stop-gui"
+echo ""
+
+wait $GUI_PID

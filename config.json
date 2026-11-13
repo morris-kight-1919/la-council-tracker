@@ -1,0 +1,8 @@
+{
+  "_note": "Multi-word phrases (e.g. 'Inside Safe', 'Gibson Dunn') return 0 results due to a search-engine quirk on this site -- use single distinctive words instead. Very broad single words ('homeless', 'LAHSA') were dropped from the default seed because they hit the 500-result cap and would flood the watchlist -- add them back deliberately if you want that volume.",
+  "keywords": [
+    "LAFLA",
+    "encampment"
+  ],
+  "committees": []
+}

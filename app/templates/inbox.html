@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% from "partials/_inbox_card.html" import inbox_card %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}Inbox — LA Council Tracker{% endblock %}
+{% block page_title %}Inbox{% endblock %}
+{% block content %}
+
+<p class="page-intro">Proposed matches between new ENS notices / agenda items and Council Files, waiting for a decision.</p>
+
+{% if items %}
+  {% for item in items %}
+    {{ inbox_card(item) }}
+  {% endfor %}
+{% else %}
+  {{ empty_state("Nothing waiting for review.") }}
+{% endif %}
+
+{% endblock %}

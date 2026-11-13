@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% from "partials/_status_badge.html" import status_badge %}
+{% from "partials/_source_link.html" import source_link %}
+{% from "partials/_empty_state.html" import empty_state %}
+{% block title %}Calendar — LA Council Tracker{% endblock %}
+{% block page_title %}Calendar{% endblock %}
+{% block content %}
+
+<p class="page-intro">Officially scheduled hearings and recent status changes for watched Council Files, newest first. No public-comment deadlines are shown — that isn't extracted anywhere in the pipeline yet, so none are invented.</p>
+
+{% if events %}
+  <ul class="action-queue">
+    {% for e in events %}
+      <li class="action-item">
+        <div>
+          {{ status_badge('blue' if e.kind == 'Officially scheduled' else 'neutral', e.kind) }}
+          <strong>{{ e.date }}</strong>
+        </div>
+        <div class="action-summary">
+          <a href="{{ url_for('council_files.detail', cfnumber=e.cfnumber) }}">{{ e.title }}</a>
+        </div>
+        {% if e.detail %}<div class="muted small">{{ e.detail }}</div>{% endif %}
+        <div>{{ source_link(e.source_url) }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  {{ empty_state("Nothing scheduled yet.", "Hearings appear here once upcoming_agendas.py finds a watched file on a posted agenda.") }}
+{% endif %}
+
+{% endblock %}
