@@ -35,11 +35,13 @@ WINDOW_DAYS = 60
 
 
 def parse_meeting_date(s):
-    """payload_json stores meeting_date as e.g. 'Aug 11, 2026' -- parse or None."""
-    try:
-        return datetime.datetime.strptime(s, "%b %d, %Y").date()
-    except (ValueError, TypeError):
-        return None
+    """LMS email subjects spell out the month in full, e.g. 'November 13, 2026'."""
+    for fmt in ("%B %d, %Y", "%b %d, %Y"):
+        try:
+            return datetime.datetime.strptime(s, fmt).date()
+        except (ValueError, TypeError):
+            continue
+    return None
 
 
 def load_watchlist():
@@ -47,26 +49,63 @@ def load_watchlist():
         return json.load(f)
 
 
+MEETING_SUBJECT_RE = re.compile(
+    r"(New (?:regular|special(?: meeting)?) agenda): (.+?) meeting on (\w+ \d+, \d{4})"
+)
+
+# One-off entries confirmed by directly loading the LMS meeting page (its
+# <title>), not sourced from a subscription email -- used only when a
+# meeting's notification was missed because this mailbox's subscriptions
+# were off (fixed 2026-11-13; see the "Select all" state bug noted that
+# day). Remove an entry once its own email shows up normally, or once its
+# date has passed and it's no longer in the window.
+MANUALLY_VERIFIED_MEETINGS = [
+    {"meeting_body": "City Council", "agenda_kind": "Confirmed directly (not yet in subscription mail)",
+     "url": "https://lms.lacity.gov/meetings/2026-11-13-council", "meeting_date_iso": "2026-11-13",
+     "verified_directly": True},
+]
+
+
 def load_upcoming(conn, today):
-    """Hearing alerts for watched files, today through WINDOW_DAYS ahead."""
+    """Upcoming meeting agendas from LMS subscription emails, today through
+    WINDOW_DAYS ahead. Switched 2026-11-13 from the old PrimeGov-based
+    outbox/hearing_alert pipeline, which went silent after the City Clerk's
+    Oct 26 migration to LMS (PrimeGov's own API returns an empty list now,
+    confirmed directly) -- the LMS subscription emails are the real,
+    currently-working source. This covers every subscribed meeting body,
+    not just ones with a tracked file on the agenda; the old pipeline only
+    ever covered tracked files, which is why this is a meaningfully wider
+    and more useful Calendar than before, not just a swapped data source.
+    """
     cur = conn.cursor()
-    cur.execute("SELECT cfnumber, payload_json, created_at FROM outbox WHERE kind = 'hearing_alert'")
-    rows = cur.fetchall()
-    seen = {}  # dedupe by (cfnumber, meeting_id), keep latest created_at
-    for cfnumber, payload_json, created_at in rows:
-        payload = json.loads(payload_json)
-        mdate = parse_meeting_date(payload.get("meeting_date"))
+    cur.execute("SELECT subject, received_at, links_json FROM emails WHERE source = 'lms_meeting_agenda'")
+    seen = {}  # dedupe by (body, date), keep most recently received
+    for subject, received_at, links_json in cur.fetchall():
+        m = MEETING_SUBJECT_RE.search(subject or "")
+        if not m:
+            continue
+        kind, body, date_str = m.groups()
+        mdate = parse_meeting_date(date_str)
         if mdate is None:
             continue
-        key = (cfnumber, payload.get("meeting_id"))
-        if key not in seen or created_at > seen[key][1]:
-            seen[key] = (payload, created_at, mdate)
+        links = json.loads(links_json) if links_json else []
+        url = next((u for u in links if "/meetings/" in u), (links[0] if links else None))
+        key = (body, mdate.isoformat())
+        if key not in seen or received_at > seen[key][1]:
+            seen[key] = ({"meeting_body": body, "agenda_kind": kind, "url": url}, received_at, mdate)
 
     window_end = today + datetime.timedelta(days=WINDOW_DAYS)
-    upcoming = []
-    for (cfnumber, _mid), (payload, _created, mdate) in seen.items():
-        if today <= mdate <= window_end:
-            upcoming.append({**payload, "cfnumber": cfnumber, "meeting_date_iso": mdate.isoformat()})
+    upcoming = [
+        {**payload, "meeting_date_iso": mdate.isoformat()}
+        for payload, _received, mdate in seen.values()
+        if today <= mdate <= window_end
+    ]
+    seen_keys = {(u["meeting_body"], u["meeting_date_iso"]) for u in upcoming}
+    for manual in MANUALLY_VERIFIED_MEETINGS:
+        d = datetime.date.fromisoformat(manual["meeting_date_iso"])
+        key = (manual["meeting_body"], manual["meeting_date_iso"])
+        if today <= d <= window_end and key not in seen_keys:
+            upcoming.append(manual)
     upcoming.sort(key=lambda r: r["meeting_date_iso"])
     return upcoming
 
@@ -251,26 +290,27 @@ document.getElementById('q').addEventListener('input', e => {{
 def render_calendar(upcoming, watchlist):
     if upcoming:
         return "".join(
-            '<div class="card"><div class="meta-date">{mdate}</div>'
-            '<h3><a href="{url}" target="_blank">{title}</a></h3>'
-            '<div class="meta">{mtitle} · CF {cf}</div></div>'.format(
+            '<div class="card"><div class="meta-date">{mdate}{today_tag}</div>'
+            '<h3><a href="{url}" target="_blank">{body}</a></h3>'
+            '<div class="meta">{kind}</div></div>'.format(
                 url=html.escape(it.get("url") or "#"),
-                title=html.escape((it.get("item_title") or "")[:140]),
+                body=html.escape(it["meeting_body"]),
                 mdate=html.escape(it["meeting_date_iso"]),
-                mtitle=html.escape(it.get("meeting_title") or ""),
-                cf=html.escape(it["cfnumber"]),
+                today_tag=" — TODAY" if it["meeting_date_iso"] == datetime.date.today().isoformat() else "",
+                kind=html.escape(it["agenda_kind"]),
             ) for it in upcoming
         )
-    return (f'<p class="empty">No upcoming agenda items found for any of the {len(watchlist)} tracked files, '
-            f'searched {AS_OF}, window through {WINDOW_DAYS} days ahead. This means no hearing alerts matched '
-            f'— check the pipeline is still running if this persists, since an empty calendar can mean a quiet '
-            f'window or a broken feed and this page can\'t tell you which.</p>')
+    return (f'<p class="empty">No upcoming meeting agendas found in the LMS subscription mail, '
+            f'searched {AS_OF}, window through {WINDOW_DAYS} days ahead. This means the subscribed inbox has '
+            f'nothing posted for this window yet — check the LMS mail pipeline is still running if this '
+            f'persists, since an empty calendar can mean a quiet window or a broken feed and this page can\'t '
+            f'tell you which.</p>')
 
 
 def headline(upcoming):
     if upcoming:
         n = len(upcoming)
-        return "", f"{n} upcoming agenda item{'s' if n != 1 else ''} on tracked files"
+        return "", f"{n} upcoming meeting agenda{'s' if n != 1 else ''} posted"
     return " zero", "Nothing upcoming right now — see Calendar below for why"
 
 
